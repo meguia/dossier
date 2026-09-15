@@ -11,3 +11,7 @@
 
 html[lang="es"] .hero h1{font-size:clamp(53px,7.4vw,123px)}
 @media(max-width:650px){html[lang="es"] .hero h1{font-size:clamp(50px,13.5vw,79px)}}
+
+.project-hero-pair{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:1050px;margin:auto}.project-hero-pair img{width:100%;height:auto}.portrait-detail{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:7vw;align-items:start}.portrait-detail .detail-photo{max-height:none;height:auto;object-fit:contain}.portrait-detail h2{font-size:clamp(35px,4vw,59px);margin-bottom:28px}@media(max-width:650px){.project-hero-pair{gap:12px}.portrait-detail{grid-template-columns:1fr;gap:30px}.portrait-detail figure{max-width:420px;margin:auto}}
+.project-video{display:block;position:relative}.preview-label{position:absolute;left:20px;bottom:20px;background:var(--paper);color:var(--ink);padding:12px 16px;font-size:14px}.project-video:hover .preview-label{background:var(--ink);color:var(--paper)}
+.project-video .project-hero{max-height:none;aspect-ratio:16/9;object-fit:contain;background:#050811}

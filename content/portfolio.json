@@ -18,7 +18,7 @@
     ],
     "bio": "Manuel Eguía is an artist and physicist based in Buenos Aires. He holds a PhD in Physics from the Universidad de Buenos Aires (2002), is a CONICET researcher and a full professor at the Escuela Universitaria de Artes, Universidad Nacional de Quilmes. He founded LAPSo, the Laboratory of Acoustics and Sound Perception, in 2007, and founded Proyecto GRAPa in 2017. Since 2026, he directs UNQ’s Instituto de Investigaciones en Arte, Ciencia, Tecnología y Sociedad (ArCiTeS).",
     "work_heading": "Selected works",
-    "work_intro": "Four projects, connected by an enquiry into the relationships between sound, matter, bodies and place.",
+    "work_intro": "Six projects exploring relationships between sound, materials, bodies and place.",
     "practice_heading": "The laboratory, the classroom, the work",
     "practice": [
       "At LAPSo, researchers and artists work together on acoustic experimentation, sound spatialization, instrument design, auditory perception and virtual environments. We develop research and artistic projects within this shared laboratory.",
@@ -145,9 +145,14 @@
         "detail": "Auditorio Nicolás Casullo, Universidad Nacional de Quilmes, Bernal."
       },
       {
+        "year": "2019",
+        "title": "IRIS · Sonic Crystal Room programme",
+        "detail": "Scientific advice and development with Leonardo Salzano. UNQ, Bernal."
+      },
+      {
         "year": "2011",
-        "title": "Lluvia de Arañas sobre el Riachuelo",
-        "detail": "Collective project with Sigismond de Vajay and Buenos Aires Sonora. Noche de los Museos, Buenos Aires."
+        "title": "The Wind Chimes / Lluvia de Arañas sobre el Riachuelo",
+        "detail": "Instrument design, construction and performance with Buenos Aires Sonora and LAPSo. La Noche de los Museos, Buenos Aires."
       }
     ],
     "research_heading": "Selected publications",
@@ -196,7 +201,7 @@
     ],
     "bio": "Manuel Eguía es artista y físico, vive y trabaja en Buenos Aires. Es doctor en Ciencias Físicas por la Universidad de Buenos Aires (2002), investigador del CONICET y profesor titular de la Escuela Universitaria de Artes de la Universidad Nacional de Quilmes. En 2007 fundó el Laboratorio de Acústica y Percepción Sonora (LAPSo), y en 2017 fundó Proyecto GRAPa. Desde 2026 dirige el Instituto de Investigaciones en Arte, Ciencia, Tecnología y Sociedad (ArCiTeS) de la UNQ.",
     "work_heading": "Obras seleccionadas",
-    "work_intro": "Cuatro proyectos vinculados por una investigación sobre las relaciones entre sonido, materia, cuerpos y territorio.",
+    "work_intro": "Seis proyectos que exploran relaciones entre sonido, materiales, cuerpos y territorio.",
     "practice_heading": "El laboratorio, el aula, la obra",
     "practice": [
       "En LAPSo, investigadores y artistas trabajan en experimentación acústica, espacialización del sonido, diseño de instrumentos, percepción auditiva y entornos virtuales. En este laboratorio compartido desarrollamos proyectos de investigación y producción artística.",
@@ -323,9 +328,14 @@
         "detail": "Auditorio Nicolás Casullo, Universidad Nacional de Quilmes, Bernal."
       },
       {
+        "year": "2019",
+        "title": "IRIS · Programación de Sala Cristal Sónico",
+        "detail": "Asesoramiento científico y desarrollo junto a Leonardo Salzano. UNQ, Bernal."
+      },
+      {
         "year": "2011",
-        "title": "Lluvia de Arañas sobre el Riachuelo",
-        "detail": "Proyecto colectivo con Sigismond de Vajay y Buenos Aires Sonora. Noche de los Museos, Buenos Aires."
+        "title": "Llamadores de Ángeles / Lluvia de Arañas sobre el Riachuelo",
+        "detail": "Diseño de instrumentos, construcción y performance con Buenos Aires Sonora y LAPSo. La Noche de los Museos, Buenos Aires."
       }
     ],
     "research_heading": "Publicaciones seleccionadas",
@@ -383,6 +393,11 @@
           "url": "https://www.salacristalsonico.com/english.html",
           "en": "Sonic Crystal Room website",
           "es": "Sitio de Sala Cristal Sónico"
+        },
+        {
+          "url": "https://vimeo.com/284948861",
+          "en": "Project explanation · 5:57",
+          "es": "Presentación del proyecto · 5:57"
         }
       ],
       "en": {
@@ -422,11 +437,142 @@
         ],
         "alt": "Intérpretes a contraluz frente a las columnas iluminadas de Sala Cristal Sónico.",
         "detail_alt": "Detalle de las columnas de madera de Sala Cristal Sónico iluminadas en azul y verde."
+      },
+      "related_projects": [
+        "iris"
+      ]
+    },
+    {
+      "id": "wind-chimes",
+      "number": "02",
+      "year": "2011",
+      "credit": "Buenos Aires Sonora / LAPSo",
+      "image": "wind-chimes-building.jpg",
+      "hero_pair": "wind-chimes-bridge.jpg",
+      "card_position": "center 78%",
+      "detail_image": "wind-chimes-action.jpg",
+      "detail_layout": "portrait",
+      "gallery": [],
+      "links": [
+        {
+          "url": "https://vimeo.com/36096551",
+          "en": "Backstage: Lluvia de Arañas sobre el Riachuelo · 9:02",
+          "es": "Backstage: Lluvia de Arañas sobre el Riachuelo · 9:02"
+        }
+      ],
+      "en": {
+        "title": "The Wind Chimes",
+        "subtitle": "Tubular instruments for a bridge and a river",
+        "medium": "Site-specific instruments · Collective performance",
+        "role": "Instrument design; construction and performance with LAPSo, in collaboration with Buenos Aires Sonora.",
+        "context": "El Puente Suena II [Invocaciones], within Lluvia de Arañas sobre el Riachuelo. La Noche de los Museos, Puente Transbordador Nicolás Avellaneda, La Boca, Buenos Aires, 12 November 2011.",
+        "summary": "Five large tubular wind chimes, suspended from the Nicolás Avellaneda transporter bridge, were played during a collective sound performance over the Riachuelo.",
+        "body": [
+          "With Buenos Aires Sonora and the LAPSo team, we built instruments for El Puente Suena II [Invocaciones], presented within Sigismond de Vajay’s Lluvia de Arañas sobre el Riachuelo.",
+          "We designed the instruments around resonating metal tubes and a suspended striking mechanism. Performers set them in motion from below, making the bridge, the river and the space between them part of the performance."
+        ],
+        "detail_title": "From the laboratory to the river",
+        "detail": [
+          "We built and tested the tubular instruments at LAPSo before installing them on the bridge. The installation photographs show the instruments being assembled, suspended and activated from a boat below.",
+          "The wind chimes formed one part of Buenos Aires Sonora’s performance. Other performers used the bridge’s metal structure as a sound source, alongside recorded voices and live electronics.",
+          "Instrument concept: Hernán Kerlleñevich. Design: Manuel Eguía. Construction: Manuel Eguía, Ignacio Spiousas, Mauricio Biviano, Pablo Riera and Pablo Etchemendy. Performers on the large chimes: Manuel Eguía, Ignacio Spiousas, Mauricio Biviano, Pablo Riera and Ramiro Vergara."
+        ],
+        "image_credit": "Photographs: Ximena Martinez / Buenos Aires Sonora archive.",
+        "alt": "The team assembling large metal wind-chime tubes on a boat beneath the transporter bridge.",
+        "hero_pair_alt": "Wind chimes suspended high above a boat under the Nicolás Avellaneda transporter bridge.",
+        "detail_alt": "A silhouetted performer operating a suspended wind chime beneath the transporter bridge."
+      },
+      "es": {
+        "title": "Llamadores de Ángeles",
+        "subtitle": "Instrumentos tubulares para un puente y un río",
+        "medium": "Instrumentos para sitio específico · Performance colectiva",
+        "role": "Diseño de los instrumentos; construcción y performance con LAPSo, en colaboración con Buenos Aires Sonora.",
+        "context": "El Puente Suena II [Invocaciones], dentro de Lluvia de Arañas sobre el Riachuelo. La Noche de los Museos, Puente Transbordador Nicolás Avellaneda, La Boca, Buenos Aires, 12 de noviembre de 2011.",
+        "summary": "Cinco grandes llamadores tubulares, suspendidos del Puente Transbordador Nicolás Avellaneda, fueron ejecutados durante una performance sonora colectiva sobre el Riachuelo.",
+        "body": [
+          "Con Buenos Aires Sonora y el equipo de LAPSo construimos instrumentos para El Puente Suena II [Invocaciones], presentado dentro de Lluvia de Arañas sobre el Riachuelo, de Sigismond de Vajay.",
+          "Diseñamos los instrumentos a partir de tubos metálicos resonantes y un mecanismo de percusión suspendido. Los performers los ponían en movimiento desde abajo, incorporando el puente, el río y el espacio entre ambos a la performance."
+        ],
+        "detail_title": "Del laboratorio al río",
+        "detail": [
+          "Construimos y probamos los instrumentos tubulares en LAPSo antes de instalarlos en el puente. Las fotografías del montaje muestran el armado, la suspensión y la activación de los instrumentos desde una embarcación.",
+          "Los llamadores formaban parte de la performance de Buenos Aires Sonora. Otros performers utilizaban la estructura metálica del puente como fuente sonora, junto con voces grabadas y electrónica en vivo.",
+          "Idea de los instrumentos: Hernán Kerlleñevich. Diseño: Manuel Eguía. Luthería: Manuel Eguía, Ignacio Spiousas, Mauricio Biviano, Pablo Riera y Pablo Etchemendy. Performers en los grandes llamadores: Manuel Eguía, Ignacio Spiousas, Mauricio Biviano, Pablo Riera y Ramiro Vergara."
+        ],
+        "image_credit": "Fotografías: Ximena Martinez / archivo de Buenos Aires Sonora.",
+        "alt": "El equipo arma los grandes tubos metálicos de un llamador sobre una embarcación bajo el puente transbordador.",
+        "hero_pair_alt": "Llamadores suspendidos a gran altura sobre una embarcación bajo el Puente Transbordador Nicolás Avellaneda.",
+        "detail_alt": "Un performer a contraluz acciona un llamador suspendido bajo el puente transbordador."
       }
     },
     {
+      "id": "iris",
+      "number": "03",
+      "year": "2018–2019",
+      "credit": "Leonardo Salzano / Manuel Eguía · LAPSo",
+      "image": "iris-teaser.jpg",
+      "detail_image": null,
+      "gallery": [],
+      "related_projects": [
+        "sonic-crystal-room"
+      ],
+      "links": [
+        {
+          "url": "https://vimeo.com/357733702",
+          "en": "IRIS teaser · 1:39",
+          "es": "IRIS · teaser · 1:39"
+        },
+        {
+          "url": "https://doi.org/10.1080/09298215.2022.2049313",
+          "en": "Related study · JNMR 2022",
+          "es": "Estudio relacionado · JNMR 2022"
+        }
+      ],
+      "en": {
+        "title": "IRIS",
+        "subtitle": "Rotating discs, changing sound",
+        "medium": "Kinetic acoustic sculpture · Musical performance",
+        "role": "Scientific advice, acoustic research, construction and programming with Leonardo Salzano. Original and technical design: Leonardo Salzano.",
+        "context": "2018–2019 version documented in the teaser. Presented in the Sonic Crystal Room programme at UNQ in April 2019. Related study published in Journal of New Music Research (2022).",
+        "summary": "A kinetic acoustic sculpture of two independently rotating, perforated discs. Their relative alignment changes how sound passes through the structure, affecting timbre and spatial projection.",
+        "body": [
+          "Developed at LAPSo from Leonardo Salzano’s original design, IRIS forms part of our work on acoustic materials for performance. We combine physical experimentation, construction and programming to make the geometry of the sculpture adjustable during a musical work.",
+          "Placed between a source and listeners, the discs alter the transmission of particular frequency bands. Rotation changes the relationship between the two layers, allowing the sculpture to modify the sound’s spectral balance and apparent location."
+        ],
+        "detail_title": "An acoustic material for performance",
+        "detail": [
+          "IRIS and Sonic Crystal Room belong to the same line of research into how periodic structures can modify sound in air. IRIS concentrates this investigation in a moving object whose alignment becomes a parameter for performance.",
+          "Acoustic measurements and a study by Leonardo Salzano and Manuel Eguía examine how the rotating layers change sound focusing, timbre and spatial perception. The 2022 paper connects the sculpture’s material design with musical applications."
+        ],
+        "image_credit": "Teaser image: Ezequiel Hilbert, 2019.",
+        "alt": "IRIS teaser image showing blue light through the sculpture’s overlapping perforated discs.",
+        "detail_alt": ""
+      },
+      "es": {
+        "title": "IRIS",
+        "subtitle": "Discos que giran, sonido que cambia",
+        "medium": "Escultura acústica cinética · Performance musical",
+        "role": "Asesoramiento científico, investigación acústica, construcción y programación junto a Leonardo Salzano. Diseño original y técnico: Leonardo Salzano.",
+        "context": "Versión 2018–2019 documentada en el teaser. Presentada en la programación de Sala Cristal Sónico en la UNQ en abril de 2019. Estudio relacionado publicado en Journal of New Music Research (2022).",
+        "summary": "Una escultura acústica cinética de dos discos perforados que giran de manera independiente. Su alineación relativa modifica el paso del sonido a través de la estructura, afectando el timbre y la proyección espacial.",
+        "body": [
+          "Desarrollada en LAPSo a partir del diseño original de Leonardo Salzano, IRIS forma parte de nuestro trabajo sobre materiales acústicos para la performance. Combinamos experimentación física, construcción y programación para modificar la geometría de la escultura durante una obra musical.",
+          "Situados entre una fuente y quienes escuchan, los discos modifican la transmisión de determinadas bandas de frecuencia. La rotación cambia la relación entre ambas capas y permite alterar el balance espectral y la localización aparente del sonido."
+        ],
+        "detail_title": "Un material acústico para la performance",
+        "detail": [
+          "IRIS y Sala Cristal Sónico pertenecen a una misma línea de investigación sobre cómo las estructuras periódicas pueden modificar el sonido en el aire. IRIS concentra esta búsqueda en un objeto móvil cuya alineación se convierte en un parámetro de la performance.",
+          "Las mediciones acústicas y un estudio de Leonardo Salzano y Manuel Eguía examinan cómo las capas giratorias modifican la focalización, el timbre y la percepción espacial. El artículo de 2022 vincula el diseño material de la escultura con aplicaciones musicales."
+        ],
+        "image_credit": "Imagen del teaser: Ezequiel Hilbert, 2019.",
+        "alt": "Imagen del teaser de IRIS: luz azul a través de los discos perforados superpuestos de la escultura.",
+        "detail_alt": ""
+      },
+      "preview_link": "https://vimeo.com/357733702"
+    },
+    {
       "id": "transit",
-      "number": "02",
+      "number": "04",
       "year": "2023",
       "credit": "Manuel Eguía / Mauro Zannoli",
       "image": "transit-container.jpg",
@@ -489,7 +635,7 @@
     },
     {
       "id": "grapa",
-      "number": "03",
+      "number": "05",
       "year": "2017–",
       "credit": "Proyecto GRAPa · Manuel Eguía, Francisco Durante, Damián Payo, Mauro Zannoli",
       "image": "grapa-circle.jpg",
@@ -503,6 +649,11 @@
           "url": "https://youtu.be/HOucTh3RDHM",
           "en": "Watch the copla recording · 360°",
           "es": "Ver el registro de coplas · 360°"
+        },
+        {
+          "url": "https://vimeo.com/289015575",
+          "en": "El Anfiteatro · documentary · 11:39",
+          "es": "El Anfiteatro · documental · 11:39"
         }
       ],
       "en": {
@@ -520,7 +671,7 @@
         "detail": [
           "Our immersive copla recordings place the listener within the singing circle, preserving the spatial relationships between performers. The work is grounded in the knowledge and participation of the singers, including Mariana Carrizo.",
           "We used Ambisonic and binaural impulse-response measurements to capture how the amphitheatre responds to sound. These recordings allow aspects of its acoustic character to be recreated through loudspeakers or headphones.",
-          "A documentary follows our April 2018 fieldwork and brings the acoustic survey together with the recording of coplas. The three strands document musical practice alongside the space in which it takes place."
+          "The documentary El Anfiteatro (2018) follows our April fieldwork and brings the acoustic survey together with the recording of coplas. The three strands document musical practice alongside the space in which it takes place."
         ],
         "alt": "Copla singers seated in a circle with their cajas beneath the rock walls of the natural amphitheatre.",
         "detail_alt": "Singers and recording equipment during GRAPa fieldwork at Quebrada de las Conchas."
@@ -540,7 +691,7 @@
         "detail": [
           "Nuestros registros inmersivos de coplas sitúan a quien escucha dentro de la ronda y conservan las relaciones espaciales entre sus integrantes. El trabajo se apoya en los conocimientos y la participación de las copleras y los copleros, incluida Mariana Carrizo.",
           "Utilizamos mediciones de respuesta al impulso en Ambisonics y binaural para registrar cómo responde el anfiteatro al sonido. Permiten recrear aspectos de su carácter acústico mediante parlantes o auriculares.",
-          "Un documental recoge nuestro trabajo de campo de abril de 2018 y reúne el relevamiento acústico con la grabación de coplas. Las tres líneas documentan la práctica musical junto con el espacio en el que se desarrolla."
+          "El documental El Anfiteatro (2018) recoge nuestro trabajo de campo de abril y reúne el relevamiento acústico con la grabación de coplas. Las tres líneas documentan la práctica musical junto con el espacio en el que se desarrolla."
         ],
         "alt": "Copleras y copleros sentados en ronda con sus cajas bajo las paredes rocosas del anfiteatro natural.",
         "detail_alt": "Copleras, copleros y equipos de grabación durante el trabajo de campo de GRAPa en la Quebrada de las Conchas."
@@ -548,7 +699,7 @@
     },
     {
       "id": "biocenosis",
-      "number": "04",
+      "number": "06",
       "year": "2022",
       "credit": "Sigismond de Vajay & Kevin Lesquenner + LAPSo",
       "image": "biocenosis.jpg",
