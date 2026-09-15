@@ -9,23 +9,23 @@
     "title": "Sound, space & perception",
     "role": "Sound artist · Physicist · Researcher",
     "portfolio": "Selected works & practice",
-    "intro": "I develop works that explore how sound shapes our experience of space, how listening connects us to a place, and how perception can be transformed.",
-    "statement_title": "A practice grounded in research. A life working with artists.",
+    "intro": "I work with sound, acoustics and auditory perception through installations, virtual environments and collaborative projects.",
+    "statement_title": "Artistic practice and scientific research",
     "statement": [
-      "My professional foundation is research in physics, nonlinear dynamics, neuroscience and acoustics. For 25 years I have worked at an art school, training artists and forging connections between art and science through laboratory practice and international collaborative projects. From that sustained exchange, I have developed a distinct artistic practice.",
-      "I explore emerging questions in sound, acoustics and auditory perception by making works in which those questions become experiences. A room can become an instrument; a familiar interior can unfold into an unfamiliar world; a landscape can be heard through the relationship between a voice and the space that answers it.",
-      "My work moves between physical acoustics, immersive sound, virtual reality and collective listening. Scientific models, experiments and technical development are part of how I make art. The encounter with a listener, a body and a particular place gives that work its form."
+      "My professional background is research in physics, nonlinear dynamics, neuroscience and acoustics. For 25 years, I have worked at an art school, training artists and connecting art and science through laboratory work and international collaborations. My artistic practice has developed through this work.",
+      "I develop works based on current questions in sound, acoustics and auditory perception. These projects examine how acoustic materials affect listening, how virtual environments alter the perception of space, and how musical practices relate to their acoustic surroundings.",
+      "Scientific models, experiments and technical development are part of this practice. The works take shape in relation to particular spaces, acoustic conditions and ways of listening."
     ],
     "bio": "Manuel Eguía is an artist and physicist based in Buenos Aires. He holds a PhD in Physics from the Universidad de Buenos Aires (2002), is a CONICET researcher and a full professor at the Escuela Universitaria de Artes, Universidad Nacional de Quilmes. He founded LAPSo, the Laboratory of Acoustics and Sound Perception, in 2007, and founded Proyecto GRAPa in 2017. Since 2026, he directs UNQ’s Instituto de Investigaciones en Arte, Ciencia, Tecnología y Sociedad (ArCiTeS).",
     "work_heading": "Selected works",
     "work_intro": "Four projects, connected by an enquiry into the relationships between sound, matter, bodies and place.",
     "practice_heading": "The laboratory, the classroom, the work",
     "practice": [
-      "At LAPSo, research and artistic production develop through sustained collaboration. The laboratory brings together acoustic experimentation, sound spatialization, instrument design, auditory perception and virtual environments. It is also a place where artists develop work and researchers learn from artistic questions.",
-      "Teaching is integral to this practice. Over 25 years working at an art school, I have trained artists and accompanied projects across music, performance and the visual arts. My work also includes doctoral supervision across science, art and technology, and international workshops that open scientific ideas to people from other disciplines."
+      "At LAPSo, researchers and artists work together on acoustic experimentation, sound spatialization, instrument design, auditory perception and virtual environments. We develop research and artistic projects within this shared laboratory.",
+      "Eguía’s teaching includes artist training and project supervision in music, performance and the visual arts. He also supervises doctoral work across science, art and technology and contributes to international workshops involving participants from different disciplines."
     ],
-    "workshop_heading": "Sharing scientific thought",
-    "workshop_intro": "At the Performing Arts Forum in Saint-Erme, France, I participate in the L.I.F.E. project initiated by Gabriel Catren, bringing scientific enquiry into a setting of artistic and collective experimentation.",
+    "workshop_heading": "Workshops at Performing Arts Forum",
+    "workshop_intro": "At the Performing Arts Forum in Saint-Erme, France, Eguía participates in the L.I.F.E. project initiated by Gabriel Catren. The workshops bring scientific and mathematical questions into a setting of collective artistic experimentation.",
     "workshops": [
       {
         "year": "2022",
@@ -44,7 +44,7 @@
       }
     ],
     "collab_heading": "Selected international collaborations",
-    "collab_intro": "Sound design and technological development form another strand of my practice, in dialogue with the authors of these works.",
+    "collab_intro": "Sound design and technical development in collaboration with the authors of these works.",
     "collaborations": [
       {
         "year": "2023–2024",
@@ -56,7 +56,7 @@
         "year": "2023",
         "title": "Glockenbuch IV (Spectre Maria dei Carmini)",
         "artist": "Marcus Schmickler, in collaboration with Julian Rohrhuber",
-        "detail": "Multichannel sound collaboration. Sound Microscopies programme, Biennale Musica, Venice. Credited by La Biennale.",
+        "detail": "Multichannel sound collaboration. Sound Microscopies programme, Biennale Musica, Venice.",
         "url": "https://www.labiennale.org/en/music/2023/music-performances/marcus-schmickler-glockenbuch-iv-spectre-maria-dei-carmini"
       },
       {
@@ -79,7 +79,7 @@
       }
     ],
     "cv_heading": "Selected CV",
-    "cv_intro": "Artistic practice, scientific research and education are interdependent parts of my trajectory.",
+    "cv_intro": "Selected work in research, teaching and artistic practice.",
     "positions": [
       {
         "year": "2026–",
@@ -151,12 +151,11 @@
         "detail": "Collective project with Sigismond de Vajay and Buenos Aires Sonora. Noche de los Museos, Buenos Aires."
       }
     ],
-    "research_heading": "Research that informs the practice",
-    "research_intro": "These publications connect sonic crystals and acoustic time reversal with spatial perception, musical timbre and sound synthesis. They trace scientific questions that feed my artistic practice.",
+    "research_heading": "Selected publications",
+    "research_intro": "Selected studies on sonic crystals, acoustic time reversal, spatial perception, musical timbre and sound synthesis.",
     "research_note": "Selected publications. Full author lists and publication details are available through the linked articles.",
     "programme": "Director of Perspectiva Acústica, Etapa II (2025–2029), a UNQ research programme comprising seven projects.",
-    "contact_heading": "Continue the conversation",
-    "contact_text": "For residencies, artistic collaborations, workshops and research exchanges.",
+    "contact_heading": "Contact",
     "download": "Download portfolio",
     "download_cv": "Selected CV",
     "nav": [
@@ -166,7 +165,7 @@
       "Contact"
     ],
     "labels": {
-      "role": "My role",
+      "role": "Role",
       "context": "Context",
       "medium": "Medium",
       "watch": "Watch documentation",
@@ -175,37 +174,37 @@
       "education": "Education",
       "positions": "Research & teaching",
       "highlights": "Exhibitions, residencies & support",
-      "view": "Explore the work",
+      "view": "View project",
       "back": "Back to top",
       "credit": "Project documentation supplied by Manuel Eguía. Work credits appear alongside each project.",
       "pdf_language": "English · PDF",
       "language": "Language",
       "skip": "Skip to content"
     },
-    "current_heading": "Current enquiry: vibrating matter",
-    "current": "My recent research into acoustic time reversal extends into studio experiments with pulses travelling through steel sheets. I am exploring how bending a surface changes sound focusing, timbre and radiation, and how these changes can become bodily gestures and spatial listening experiences."
+    "current_heading": "Current research: acoustic time reversal",
+    "current": "Current experiments extend research on acoustic time reversal to pulses travelling through steel sheets. The work examines how bending the surface changes sound focusing, timbre and radiation, and how these changes relate to gesture and spatial listening."
   },
   "es": {
     "title": "Sonido, espacio y percepción",
     "role": "Artista sonoro · Físico · Investigador",
     "portfolio": "Obras seleccionadas y práctica",
-    "intro": "Desarrollo obras que exploran cómo el sonido configura nuestra experiencia del espacio, cómo la escucha nos vincula con un lugar y cómo puede transformarse la percepción.",
-    "statement_title": "Una práctica arraigada en la investigación. Una vida trabajando con artistas.",
+    "intro": "Trabajo con el sonido, la acústica y la percepción auditiva a través de instalaciones, entornos virtuales y proyectos colectivos.",
+    "statement_title": "Práctica artística e investigación científica",
     "statement": [
-      "Mi base profesional es la investigación en física, dinámica no lineal, neurociencias y acústica. Desde hace 25 años trabajo en una escuela de artes, formando artistas y construyendo vínculos entre arte y ciencia a través del trabajo de laboratorio y de proyectos de colaboración internacional. A partir de ese intercambio sostenido he desarrollado una práctica artística propia.",
-      "Exploro preguntas actuales sobre sonido, acústica y percepción auditiva mediante obras que convierten esas preguntas en experiencias. Una sala puede volverse un instrumento; un interior conocido puede desplegarse en un mundo extraño; un paisaje puede escucharse a través de la relación entre una voz y el espacio que le responde.",
-      "Mi trabajo recorre la acústica física, el sonido inmersivo, la realidad virtual y la escucha colectiva. Los modelos científicos, los experimentos y el desarrollo técnico forman parte de mi manera de hacer arte. El encuentro con quien escucha, con un cuerpo y con un lugar concreto da forma a la obra."
+      "Mi base profesional es la investigación en física, dinámica no lineal, neurociencias y acústica. Desde hace 25 años trabajo en una escuela de artes, formando artistas y vinculando el arte y la ciencia a través del laboratorio y de colaboraciones internacionales. Mi práctica artística se ha desarrollado a partir de ese trabajo.",
+      "Desarrollo obras a partir de preguntas actuales sobre sonido, acústica y percepción auditiva. Estos proyectos estudian cómo los materiales acústicos afectan la escucha, cómo los entornos virtuales modifican la percepción del espacio y cómo las prácticas musicales se relacionan con sus entornos acústicos.",
+      "Los modelos científicos, los experimentos y el desarrollo técnico forman parte de esta práctica. Las obras toman forma en relación con espacios, condiciones acústicas y modos de escucha específicos."
     ],
     "bio": "Manuel Eguía es artista y físico, vive y trabaja en Buenos Aires. Es doctor en Ciencias Físicas por la Universidad de Buenos Aires (2002), investigador del CONICET y profesor titular de la Escuela Universitaria de Artes de la Universidad Nacional de Quilmes. En 2007 fundó el Laboratorio de Acústica y Percepción Sonora (LAPSo), y en 2017 fundó Proyecto GRAPa. Desde 2026 dirige el Instituto de Investigaciones en Arte, Ciencia, Tecnología y Sociedad (ArCiTeS) de la UNQ.",
     "work_heading": "Obras seleccionadas",
     "work_intro": "Cuatro proyectos vinculados por una investigación sobre las relaciones entre sonido, materia, cuerpos y territorio.",
     "practice_heading": "El laboratorio, el aula, la obra",
     "practice": [
-      "En LAPSo, la investigación y la producción artística se desarrollan mediante una colaboración sostenida. El laboratorio reúne experimentación acústica, espacialización del sonido, diseño de instrumentos, percepción auditiva y entornos virtuales. Es también un espacio donde los artistas desarrollan obras y los investigadores aprenden de las preguntas del arte.",
-      "La docencia es parte integral de esta práctica. A lo largo de 25 años en una escuela de artes he formado artistas y acompañado proyectos de música, artes escénicas y artes visuales. Mi trabajo incluye también la dirección de tesis doctorales entre ciencia, arte y tecnología, y talleres internacionales que acercan el pensamiento científico a personas de otras disciplinas."
+      "En LAPSo, investigadores y artistas trabajan en experimentación acústica, espacialización del sonido, diseño de instrumentos, percepción auditiva y entornos virtuales. En este laboratorio compartido desarrollamos proyectos de investigación y producción artística.",
+      "La docencia de Eguía incluye la formación de artistas y el acompañamiento de proyectos de música, artes escénicas y artes visuales. También dirige tesis doctorales entre ciencia, arte y tecnología y participa en talleres internacionales con personas de distintas disciplinas."
     ],
-    "workshop_heading": "Compartir el pensamiento científico",
-    "workshop_intro": "En el Performing Arts Forum de Saint-Erme, Francia, participo del proyecto L.I.F.E., iniciado por Gabriel Catren, acercando la investigación científica a un ámbito de experimentación artística y colectiva.",
+    "workshop_heading": "Talleres en Performing Arts Forum",
+    "workshop_intro": "En el Performing Arts Forum de Saint-Erme, Francia, Eguía participa del proyecto L.I.F.E., iniciado por Gabriel Catren. Los talleres abordan preguntas científicas y matemáticas en un ámbito de experimentación artística colectiva.",
     "workshops": [
       {
         "year": "2022",
@@ -224,7 +223,7 @@
       }
     ],
     "collab_heading": "Colaboraciones internacionales seleccionadas",
-    "collab_intro": "El diseño sonoro y el desarrollo tecnológico constituyen otra vertiente de mi práctica, en diálogo con los autores de estas obras.",
+    "collab_intro": "Diseño sonoro y desarrollo técnico en colaboración con los autores de estas obras.",
     "collaborations": [
       {
         "year": "2023–2024",
@@ -236,7 +235,7 @@
         "year": "2023",
         "title": "Glockenbuch IV (Spectre Maria dei Carmini)",
         "artist": "Marcus Schmickler, en colaboración con Julian Rohrhuber",
-        "detail": "Colaboración sonora multicanal. Programa Sound Microscopies, Biennale Musica, Venecia. Participación acreditada por La Biennale.",
+        "detail": "Colaboración sonora multicanal. Programa Sound Microscopies, Biennale Musica, Venecia.",
         "url": "https://www.labiennale.org/en/music/2023/music-performances/marcus-schmickler-glockenbuch-iv-spectre-maria-dei-carmini"
       },
       {
@@ -259,7 +258,7 @@
       }
     ],
     "cv_heading": "CV seleccionado",
-    "cv_intro": "La práctica artística, la investigación científica y la docencia son dimensiones interdependientes de mi trayectoria.",
+    "cv_intro": "Trayectoria en investigación, docencia y práctica artística.",
     "positions": [
       {
         "year": "2026–",
@@ -331,12 +330,11 @@
         "detail": "Proyecto colectivo con Sigismond de Vajay y Buenos Aires Sonora. Noche de los Museos, Buenos Aires."
       }
     ],
-    "research_heading": "La investigación que nutre la práctica",
-    "research_intro": "Estas publicaciones vinculan los cristales sónicos y la reversión temporal acústica con la percepción espacial, el timbre musical y la síntesis sonora. Trazan preguntas científicas que alimentan mi práctica artística.",
+    "research_heading": "Publicaciones seleccionadas",
+    "research_intro": "Estudios seleccionados sobre cristales sónicos, reversión temporal acústica, percepción espacial, timbre musical y síntesis sonora.",
     "research_note": "Selección de publicaciones. Los artículos enlazados incluyen la autoría completa y los datos bibliográficos.",
     "programme": "Director de Perspectiva Acústica, Etapa II (2025–2029), programa de investigación de la UNQ integrado por siete proyectos.",
-    "contact_heading": "Sigamos la conversación",
-    "contact_text": "Residencias, colaboraciones artísticas, talleres e intercambios de investigación.",
+    "contact_heading": "Contacto",
     "download": "Descargar portfolio",
     "download_cv": "CV seleccionado",
     "nav": [
@@ -346,7 +344,7 @@
       "Contacto"
     ],
     "labels": {
-      "role": "Mi participación",
+      "role": "Participación",
       "context": "Contexto",
       "medium": "Medio",
       "watch": "Ver registro",
@@ -355,15 +353,15 @@
       "education": "Formación",
       "positions": "Investigación y docencia",
       "highlights": "Exposiciones, residencias y apoyos",
-      "view": "Explorar la obra",
+      "view": "Ver proyecto",
       "back": "Volver al inicio",
       "credit": "Documentación de los proyectos aportada por Manuel Eguía. Los créditos de autoría acompañan a cada obra.",
       "pdf_language": "Inglés · PDF",
       "language": "Idioma",
       "skip": "Saltar al contenido"
     },
-    "current_heading": "Investigación actual: materia vibrante",
-    "current": "Mi investigación reciente sobre reversión temporal acústica se extiende a experimentos de taller con pulsos que viajan por láminas de acero. Exploro cómo la flexión de una superficie modifica la focalización, el timbre y la radiación sonora, y cómo esos cambios pueden convertirse en gestos corporales y experiencias espaciales de escucha."
+    "current_heading": "Investigación actual: reversión temporal acústica",
+    "current": "Los experimentos actuales extienden la investigación sobre reversión temporal acústica a pulsos que viajan por láminas de acero. El trabajo estudia cómo la flexión de la superficie modifica la focalización, el timbre y la radiación sonora, y cómo esos cambios se relacionan con el gesto y la escucha espacial."
   },
   "projects": [
     {
@@ -392,12 +390,12 @@
         "context": "First presented at UNQ in 2019. Presented in the opening programme of the Festival de Nueva Ópera, cheLA, Buenos Aires, September 2024.",
         "summary": "An architecture of mobile modules and rotating wooden columns transforms sound through physical acoustics. The room itself becomes a musical instrument.",
         "body": [
-          "Sonic Crystal Room makes the acoustic behaviour of a space available to composition and performance. Its columns form a sonic crystal: a repeated structure that changes how sound travels. Reconfiguring that structure changes what a listener hears and where the sound seems to be.",
+          "In Sonic Crystal Room, we use the acoustic behaviour of a space as a material for composition and performance. The columns form a sonic crystal: a repeated structure that changes how sound travels. Reconfiguring the structure changes what a listener hears and where the sound seems to be.",
           "The work makes architecture an active part of a performance. Movement, apparent distance and shifts in acoustic perspective emerge from the relationship between sound sources, the columns and the listener."
         ],
         "detail_title": "Composing with the space itself",
         "detail": [
-          "Mobile modules and rotating columns create a room whose acoustic properties can change during a performance. Focusing, redirection and scattering become compositional resources, alongside the sound produced by musicians or loudspeakers.",
+          "We use mobile modules and rotating columns to change the room’s acoustic properties during a performance. Focusing, redirection and scattering become compositional resources, alongside the sound produced by musicians or loudspeakers.",
           "Outside performances, the installation can be explored as a three-dimensional score. Visitors move through an architecture whose geometry and material properties organize the listening experience."
         ],
         "alt": "Performers silhouetted in front of a wall of illuminated columns in Sonic Crystal Room.",
@@ -411,12 +409,12 @@
         "context": "Primera presentación en la UNQ en 2019. Programa de apertura del Festival de Nueva Ópera, cheLA, Buenos Aires, septiembre de 2024.",
         "summary": "Una arquitectura de módulos móviles y columnas de madera giratorias transforma el sonido mediante la acústica física. La propia sala se vuelve un instrumento musical.",
         "body": [
-          "Sala Cristal Sónico pone el comportamiento acústico del espacio a disposición de la composición y la performance. Sus columnas forman un cristal sónico: una estructura periódica que modifica la propagación del sonido. Reconfigurar esa estructura cambia lo que se escucha y el lugar del que parece provenir.",
+          "En Sala Cristal Sónico utilizamos el comportamiento acústico del espacio como material para la composición y la performance. Las columnas forman un cristal sónico: una estructura periódica que modifica la propagación del sonido. Reconfigurar esa estructura cambia lo que se escucha y el lugar del que parece provenir.",
           "La arquitectura participa activamente de la obra. El movimiento, la distancia aparente y los cambios de perspectiva acústica surgen de la relación entre las fuentes sonoras, las columnas y quien escucha."
         ],
         "detail_title": "Componer con el propio espacio",
         "detail": [
-          "Los módulos móviles y las columnas giratorias forman una sala cuyas propiedades acústicas pueden cambiar durante una performance. La focalización, la redirección y la dispersión se convierten en recursos compositivos, junto con el sonido de músicos o parlantes.",
+          "Utilizamos módulos móviles y columnas giratorias para cambiar las propiedades acústicas de la sala durante una performance. La focalización, la redirección y la dispersión se convierten en recursos compositivos, junto con el sonido de músicos o parlantes.",
           "Fuera de las performances, la instalación puede recorrerse como una partitura tridimensional. Los visitantes se desplazan por una arquitectura cuya geometría y materialidad organizan la experiencia de escucha."
         ],
         "alt": "Intérpretes a contraluz frente a las columnas iluminadas de Sala Cristal Sónico.",
@@ -455,13 +453,13 @@
         "context": "Commissioned by Northern Sustainable Futures for iM Konsthall. Developed during an artist residency in Moskosel, Sweden, October 2023.",
         "summary": "A virtual journey begins in an exact replica of the room the participant occupies. Familiar space gradually opens into impossible interiors and transformed landscapes.",
         "body": [
-          "Transit is conceived as a series of site-specific virtual reality experiences. Each episode starts from the participant’s immediate physical surroundings, making the transition into a virtual world difficult to locate. Local architecture, landscape and cultural references become the material of the work.",
-          "The first episode inhabits iM Konsthall, a mobile gallery built inside a shipping container. Its interior multiplies and transforms through a sequence of spatial folds, until the participant finds themself outside, in the northern Swedish forest at night, looking for the way back."
+          "We conceived Transit as a series of site-specific virtual reality experiences. Each episode starts from the participant’s immediate physical surroundings, making the transition into a virtual world difficult to locate. Local architecture, landscape and cultural references become the material of the work.",
+          "The first episode takes place in iM Konsthall, a mobile gallery built inside a shipping container. Its interior multiplies and transforms through a sequence of spatial folds, until the participant finds themself outside, in the northern Swedish forest at night, looking for the way back."
         ],
         "detail_title": "Returning virtual space to a place",
         "detail": [
           "The container is both the physical venue and an image of transit. Its windows initially frame the same landscape seen before putting on the headset. That continuity provides the perceptual anchor from which the installation departs.",
-          "Transit brings territory and context into digital experience. The journey returns to its starting point, but the passage through altered spaces changes the participant’s relationship to that familiar room."
+          "The journey returns to its starting point, placing the familiar room in relation to the altered spaces encountered along the way."
         ],
         "alt": "The shipping-container gallery of Transit situated in a green forest landscape.",
         "detail_alt": "A virtual interior in Transit opening onto a transformed forest environment."
@@ -474,13 +472,13 @@
         "context": "Encargo de Northern Sustainable Futures para iM Konsthall. Desarrollado durante una residencia artística en Moskosel, Suecia, octubre de 2023.",
         "summary": "Un viaje virtual comienza en una réplica exacta de la sala que ocupa el participante. El espacio familiar se abre gradualmente a interiores imposibles y paisajes transformados.",
         "body": [
-          "Transit está concebido como una serie de experiencias de realidad virtual para sitio específico. Cada episodio parte del entorno físico inmediato, desdibujando el pasaje al mundo virtual. La arquitectura, el paisaje y las referencias culturales locales se convierten en materia de la obra.",
-          "El primer episodio habita iM Konsthall, una galería móvil construida dentro de un contenedor de transporte. Su interior se multiplica y transforma mediante una secuencia de pliegues espaciales, hasta situar al participante afuera, en el bosque del norte de Suecia durante la noche, buscando el camino de regreso."
+          "Concebimos Transit como una serie de experiencias de realidad virtual para sitio específico. Cada episodio parte del entorno físico inmediato, desdibujando el pasaje al mundo virtual. La arquitectura, el paisaje y las referencias culturales locales se convierten en materia de la obra.",
+          "El primer episodio transcurre en iM Konsthall, una galería móvil construida dentro de un contenedor de transporte. Su interior se multiplica y transforma mediante una secuencia de pliegues espaciales, hasta situar al participante afuera, en el bosque del norte de Suecia durante la noche, buscando el camino de regreso."
         ],
         "detail_title": "Devolver el espacio virtual a un lugar",
         "detail": [
           "El contenedor es a la vez sede física e imagen del tránsito. Sus ventanas enmarcan inicialmente el mismo paisaje que se veía antes de colocarse el casco. Esa continuidad proporciona el anclaje perceptivo del que parte la instalación.",
-          "Transit introduce territorio y contexto en la experiencia digital. El viaje regresa al punto de partida, pero el paso por espacios alterados transforma la relación del participante con esa sala conocida."
+          "El recorrido regresa al punto de partida y pone la sala conocida en relación con los espacios alterados que se atravesaron durante el viaje."
         ],
         "alt": "La galería-contenedor de Transit situada en un paisaje boscoso.",
         "detail_alt": "Un interior virtual de Transit que se abre a un entorno boscoso transformado."
@@ -512,14 +510,14 @@
         "context": "Formed in 2017 through cooperation between UNQ and Universidad Católica de Salta. Fieldwork at the natural amphitheatre of Quebrada de las Conchas, Salta, April 2018. Latin GRAMMY Cultural Foundation research support, 2021.",
         "summary": "An enquiry into acoustic heritage through the relationship between copla singing, its communities and the natural spaces in which it is practised.",
         "body": [
-          "GRAPa — Grupo de Relevamiento Acústico del Patrimonio — brings together acoustic measurement, immersive audiovisual recording and documentary filmmaking. I founded the project to investigate and document the relationship between musical practices and their acoustic environments.",
-          "La Copla y el Anfiteatro de la Quebrada de las Conchas centres on a natural amphitheatre in the Calchaquí Valleys. With the active participation of coplera Mariana Carrizo and local singers, the project records the interplay of voices, cajas and rock walls. The acoustic character of the place is part of the musical experience."
+          "GRAPa — Grupo de Relevamiento Acústico del Patrimonio — was founded by Manuel Eguía in 2017. We combine acoustic measurement, immersive audiovisual recording and documentary filmmaking to investigate musical practices and their acoustic environments.",
+          "La Copla y el Anfiteatro de la Quebrada de las Conchas centres on a natural amphitheatre in the Calchaquí Valleys. With the active participation of coplera Mariana Carrizo and local singers, we recorded the interplay of voices, cajas and rock walls. The acoustic character of the place is part of the musical experience."
         ],
         "detail_title": "Three ways of documenting a listening culture",
         "detail": [
-          "Immersive copla recordings place the listener within the singing circle, preserving the spatial relationships between performers. The work is grounded in the knowledge and participation of the singers, including Mariana Carrizo.",
-          "Ambisonic and binaural impulse-response measurements capture how the amphitheatre responds to sound. These recordings allow aspects of its acoustic character to be recreated through loudspeakers or headphones.",
-          "A documentary follows the April 2018 fieldwork, bringing together the acoustic survey and the recording of coplas. Together, the three strands present music and the space of its creation as a shared acoustic heritage."
+          "Our immersive copla recordings place the listener within the singing circle, preserving the spatial relationships between performers. The work is grounded in the knowledge and participation of the singers, including Mariana Carrizo.",
+          "We used Ambisonic and binaural impulse-response measurements to capture how the amphitheatre responds to sound. These recordings allow aspects of its acoustic character to be recreated through loudspeakers or headphones.",
+          "A documentary follows our April 2018 fieldwork and brings the acoustic survey together with the recording of coplas. The three strands document musical practice alongside the space in which it takes place."
         ],
         "alt": "Copla singers seated in a circle with their cajas beneath the rock walls of the natural amphitheatre.",
         "detail_alt": "Singers and recording equipment during GRAPa fieldwork at Quebrada de las Conchas."
@@ -532,14 +530,14 @@
         "context": "Formado en 2017 a partir de la cooperación entre la UNQ y la Universidad Católica de Salta. Trabajo de campo en el Anfiteatro Natural de la Quebrada de las Conchas, Salta, abril de 2018. Apoyo de investigación de la Fundación Cultural Latin GRAMMY, 2021.",
         "summary": "Una investigación del patrimonio acústico a través de la relación entre el canto de la copla, sus comunidades y los espacios naturales en los que se practica.",
         "body": [
-          "GRAPa — Grupo de Relevamiento Acústico del Patrimonio — reúne medición acústica, registro audiovisual inmersivo y realización documental. Fundé el proyecto para investigar y documentar la relación entre las prácticas musicales y sus entornos acústicos.",
-          "La Copla y el Anfiteatro de la Quebrada de las Conchas se centra en un anfiteatro natural de los Valles Calchaquíes. Con la participación activa de la coplera Mariana Carrizo y cantoras y cantores de la zona, registra el diálogo entre voces, cajas y paredes de piedra. La cualidad acústica del lugar forma parte de la experiencia musical."
+          "GRAPa — Grupo de Relevamiento Acústico del Patrimonio — fue fundado por Manuel Eguía en 2017. Combinamos medición acústica, registro audiovisual inmersivo y realización documental para investigar las prácticas musicales y sus entornos acústicos.",
+          "La Copla y el Anfiteatro de la Quebrada de las Conchas se centra en un anfiteatro natural de los Valles Calchaquíes. Con la participación activa de la coplera Mariana Carrizo y cantoras y cantores de la zona, registramos el diálogo entre voces, cajas y paredes de piedra. La cualidad acústica del lugar forma parte de la experiencia musical."
         ],
         "detail_title": "Tres formas de documentar una cultura de escucha",
         "detail": [
-          "Los registros inmersivos de coplas sitúan a quien escucha dentro de la ronda y conservan las relaciones espaciales entre sus integrantes. El trabajo se apoya en los conocimientos y la participación de las copleras y los copleros, incluida Mariana Carrizo.",
-          "Las mediciones de respuesta al impulso en Ambisonics y binaural registran cómo responde el anfiteatro al sonido. Permiten recrear aspectos de su carácter acústico mediante parlantes o auriculares.",
-          "Un documental recoge el trabajo de campo de abril de 2018 y reúne el relevamiento acústico con la grabación de coplas. Las tres líneas presentan la música y el espacio de su creación como un patrimonio acústico compartido."
+          "Nuestros registros inmersivos de coplas sitúan a quien escucha dentro de la ronda y conservan las relaciones espaciales entre sus integrantes. El trabajo se apoya en los conocimientos y la participación de las copleras y los copleros, incluida Mariana Carrizo.",
+          "Utilizamos mediciones de respuesta al impulso en Ambisonics y binaural para registrar cómo responde el anfiteatro al sonido. Permiten recrear aspectos de su carácter acústico mediante parlantes o auriculares.",
+          "Un documental recoge nuestro trabajo de campo de abril de 2018 y reúne el relevamiento acústico con la grabación de coplas. Las tres líneas documentan la práctica musical junto con el espacio en el que se desarrolla."
         ],
         "alt": "Copleras y copleros sentados en ronda con sus cajas bajo las paredes rocosas del anfiteatro natural.",
         "detail_alt": "Copleras, copleros y equipos de grabación durante el trabajo de campo de GRAPa en la Quebrada de las Conchas."
@@ -573,8 +571,8 @@
         "context": "13th Mercosul Biennial, Porto Alegre, Brazil, 15 September–20 November 2022.",
         "summary": "An immersive city model stages the interdependence of human, urban and non-human life under environmental pressure.",
         "body": [
-          "A city of 430 buildings becomes the setting for an encounter with ecological fragility. Sculpture, lighting and interactive systems form a submerged urban landscape, in which visitors’ presence modulates the behaviour of the fictional city.",
-          "Developed by Sigismond de Vajay in collaboration with Kevin Lesquenner and LAPSo, the installation connects artistic world-building with systems inspired by biological processes. My participation formed part of LAPSo’s collective contribution to the work."
+          "A model of 430 buildings represents a submerged urban landscape. Sculpture, lighting and interactive systems respond to visitors’ presence, changing the behaviour of the fictional city.",
+          "The installation was developed by Sigismond de Vajay in collaboration with Kevin Lesquenner and LAPSo, using systems inspired by biological processes. As the LAPSo team, we contributed to the work collectively."
         ],
         "detail_title": "Collective authorship",
         "detail": [
@@ -591,8 +589,8 @@
         "context": "13.ª Bienal del Mercosur, Porto Alegre, Brasil, 15 de septiembre–20 de noviembre de 2022.",
         "summary": "Una maqueta urbana inmersiva pone en escena la interdependencia entre lo humano, lo urbano y lo no humano bajo presión ambiental.",
         "body": [
-          "Una ciudad de 430 edificios se convierte en el escenario de un encuentro con la fragilidad ecológica. Escultura, iluminación y sistemas interactivos componen un paisaje urbano sumergido, en el que la presencia de los visitantes modula el comportamiento de la ciudad ficticia.",
-          "Desarrollada por Sigismond de Vajay en colaboración con Kevin Lesquenner y LAPSo, la instalación vincula la construcción de mundos artísticos con sistemas inspirados en procesos biológicos. Mi participación formó parte de la contribución colectiva de LAPSo a la obra."
+          "Una maqueta de 430 edificios representa un paisaje urbano sumergido. Escultura, iluminación y sistemas interactivos responden a la presencia de los visitantes y modifican el comportamiento de la ciudad ficticia.",
+          "La instalación fue desarrollada por Sigismond de Vajay en colaboración con Kevin Lesquenner y LAPSo, con sistemas inspirados en procesos biológicos. Como equipo de LAPSo, participamos colectivamente en la obra."
         ],
         "detail_title": "Autoría colectiva",
         "detail": [

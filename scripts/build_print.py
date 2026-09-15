@@ -82,7 +82,7 @@ def main():
     td=p[1]['en']
     labels=['01 / A familiar room','02 / Spatial transformation','03 / Returning from outside']
     sequence=''.join(f'<figure>{img(name,"",td["title"]+" — "+labels[i])}<figcaption>{labels[i]}</figcaption></figure>' for i,name in enumerate(p[1]['gallery']))
-    transit=f'<p class="eyebrow">Transit / Site-specific virtual reality</p><h2>{E(td["detail_title"])}</h2><div class="two-columns"><div class="body">{paras(td["detail"])}</div><div><p class="large-summary">The same room.<br>A different sense of where we are.</p><p class="small muted">First episode: iM Konsthall, Moskosel, Sweden, 2023.<br>Manuel Eguía / Mauro Zannoli<br>Commission: Northern Sustainable Futures</p>{links(p[1])}</div></div><div class="transit-sequence">{sequence}</div>'
+    transit=f'<p class="eyebrow">Transit / Site-specific virtual reality</p><h2>{E(td["detail_title"])}</h2><div class="two-columns"><div class="body">{paras(td["detail"])}</div><div><p class="large-summary">A virtual journey that begins<br>and ends in the same room.</p><p class="small muted">First episode: iM Konsthall, Moskosel, Sweden, 2023.<br>Manuel Eguía / Mauro Zannoli<br>Commission: Northern Sustainable Futures</p>{links(p[1])}</div></div><div class="transit-sequence">{sequence}</div>'
     pages.append(page(6,'Transit',transit,'transit-detail'))
     pages.append(work(7,p[2],'grapa-main'))
     gd=p[2]['en'];step_names=['01 / Immersive recording','02 / Acoustic survey','03 / Documentary']
@@ -93,7 +93,7 @@ def main():
     practice=f'<p class="eyebrow">Laboratory / Education / Collaboration</p><h2>{E(T["practice_heading"])}</h2><div class="practice-cols"><div><div class="body">{paras(T["practice"])}</div><h3>{E(T["workshop_heading"])}</h3><p class="small">L.I.F.E. project, Performing Arts Forum, Saint-Erme, France. Initiated by Gabriel Catren.</p><div class="workshop-list">{rows(T["workshops"])}</div></div><div><h3 style="margin-top:0">Selected collaborations</h3><p class="small">Sound design and technological development in dialogue with the authors of these works.</p>{rows(T["collaborations"])}</div></div>'
     pages.append(page(10,'Research, teaching & collaboration',practice,'practice-page'))
     pages.append(page(11,'Selected CV',cv_content(),'cv-page'))
-    last=f'<p class="eyebrow">Selected CV / Research</p><h2>{E(T["research_heading"])}</h2><div class="research-cols"><div class="body"><p>{E(T["research_intro"])}</p><h3>{E(T["current_heading"])}</h3><p>{E(T["current"])}</p>{contact()}<p class="doc-credit">Project photographs and stills supplied by Manuel Eguía. Authorship is credited on each project page. This selection draws on the artist’s dossiers and CV, with institutional records used to verify dates and credits.</p></div><div>{publications()}</div></div>'
+    last=f'<p class="eyebrow">Selected CV / Research</p><h2>{E(T["research_heading"])}</h2><div class="research-cols"><div class="body"><p>{E(T["research_intro"])}</p><h3>{E(T["current_heading"])}</h3><p>{E(T["current"])}</p>{contact()}<p class="doc-credit">Project photographs and stills supplied by Manuel Eguía. Authorship is credited on each project page.</p></div><div>{publications()}</div></div>'
     pages.append(page(12,'Research & contact',last,'research-page'))
     (DEST/'portfolio.html').write_text(document(''.join(pages),'Manuel Eguía — Portfolio'))
     cv1=page(1,'Selected CV',cv_content(),'cv-page').replace('01 / 12','01 / 02')

@@ -34,9 +34,9 @@ def header(lang, prefix, project=None):
         languages+=f'<a href="{prefix}{lang_path}{current}" lang="{language}" hreflang="{language}" {attr}>{language.upper()}</a>'
     return f'<a class="skip" href="#main">{E(t["labels"]["skip"])}</a><div class="wrap"><header class="site-header" id="top"><a class="brand" href="{home}">Manuel Eguía</a><nav class="nav" aria-label="Main">{nav}<span class="lang" aria-label="{E(t["labels"]["language"])}">{languages}</span></nav></header></div>'
 
-def footer(lang,prefix):
+def footer(lang):
     t=DATA[lang]
-    return f'<section class="contact-section" id="contact"><div class="contact-grid"><div><p class="eyebrow">Buenos Aires / Argentina</p><h2>{E(t["contact_heading"])}</h2><p>{E(t["contact_text"])}</p></div><div><a class="email" href="mailto:{DATA["email"]}">{DATA["email"]}</a>{channels()}{downloads(lang,prefix)}</div></div></section><footer class="wrap footer"><p>Manuel Eguía · 2026<br>{E(t["labels"]["credit"])}</p><a href="#top">{E(t["labels"]["back"])} ↑</a></footer>'
+    return f'<footer class="contact-section" id="contact" aria-label="{E(t["contact_heading"])}"><div class="contact-grid"><div><p class="contact-name">{E(DATA["name"])}</p><p class="contact-location">{E(DATA["location"])}</p></div><address><a class="email" href="mailto:{DATA["email"]}">{DATA["email"]}</a>{channels()}</address></div></footer>'
 
 def shell(lang,body,prefix,project=None):
     t=DATA[lang]; path=('es/' if lang=='es' else '')+('works/'+project['id']+'/' if project else '')
@@ -45,7 +45,7 @@ def shell(lang,body,prefix,project=None):
     og=project['image'] if project else 'sonic-performance.jpg'
     alternates=''.join(f'<link rel="alternate" hreflang="{l}" href="{DATA["base_url"]}{("es/" if l=="es" else "")}{("works/"+project["id"]+"/" if project else "")}">' for l in ['en','es'])
     schema={'@context':'https://schema.org','@type':'Person','name':'Manuel Camilo Eguía','alternateName':'Manuel Eguía','url':DATA['base_url'],'jobTitle':t['role'],'sameAs':[c['url'] for c in DATA['video_channels']]}
-    return f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)}</title><meta name="description" content="{E(desc)}"><meta name="theme-color" content="#f3f2ec"><link rel="canonical" href="{DATA["base_url"]}{path}">{alternates}<meta property="og:type" content="website"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{DATA["base_url"]}{path}"><meta property="og:image" content="{DATA["base_url"]}assets/images/{og}"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="{prefix}assets/site.css"><script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script></head><body>{header(lang,prefix,project)}{body}{footer(lang,prefix)}</body></html>'
+    return f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)}</title><meta name="description" content="{E(desc)}"><meta name="theme-color" content="#f3f2ec"><link rel="canonical" href="{DATA["base_url"]}{path}">{alternates}<meta property="og:type" content="website"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{DATA["base_url"]}{path}"><meta property="og:image" content="{DATA["base_url"]}assets/images/{og}"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="{prefix}assets/site.css"><script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script></head><body>{header(lang,prefix,project)}{body}{footer(lang)}</body></html>'
 
 def rows(items):
     html='<ul class="list">'
