@@ -152,7 +152,7 @@
       }
     ],
     "research_heading": "Research that informs the practice",
-    "research_intro": "From neural communication and nonlinear systems to acoustic materials and virtual listening environments, these publications trace the scientific questions that feed my artistic work.",
+    "research_intro": "These publications connect sonic crystals and acoustic time reversal with spatial perception, musical timbre and sound synthesis. They trace scientific questions that feed my artistic practice.",
     "research_note": "Selected publications. Full author lists and publication details are available through the linked articles.",
     "programme": "Director of Perspectiva Acústica, Etapa II (2025–2029), a UNQ research programme comprising seven projects.",
     "contact_heading": "Continue the conversation",
@@ -332,7 +332,7 @@
       }
     ],
     "research_heading": "La investigación que nutre la práctica",
-    "research_intro": "Desde la comunicación neuronal y los sistemas no lineales hasta los materiales acústicos y los entornos virtuales de escucha, estas publicaciones trazan las preguntas científicas que alimentan mi trabajo artístico.",
+    "research_intro": "Estas publicaciones vinculan los cristales sónicos y la reversión temporal acústica con la percepción espacial, el timbre musical y la síntesis sonora. Trazan preguntas científicas que alimentan mi práctica artística.",
     "research_note": "Selección de publicaciones. Los artículos enlazados incluyen la autoría completa y los datos bibliográficos.",
     "programme": "Director de Perspectiva Acústica, Etapa II (2025–2029), programa de investigación de la UNQ integrado por siete proyectos.",
     "contact_heading": "Sigamos la conversación",
@@ -623,6 +623,15 @@
       "es": "La dinámica no lineal como material sonoro"
     },
     {
+      "year": "2025",
+      "authors": "Gómez, Spiousas & Eguía",
+      "title": "Encrypted acoustical communication system using time reversal through a tunable sonic crystal",
+      "journal": "The Journal of the Acoustical Society of America 158(3), 2100–2110",
+      "url": "https://doi.org/10.1121/10.0039245",
+      "en": "Sonic crystals and acoustic communication",
+      "es": "Cristales sónicos y comunicación acústica"
+    },
+    {
       "year": "2022",
       "authors": "Salzano & Eguía",
       "title": "IRIS: A tunable sound sculpture based on acoustic periodic composites for musical performance",
@@ -632,13 +641,22 @@
       "es": "Materiales acústicos y performance musical"
     },
     {
-      "year": "2019",
-      "authors": "Alberti, Wisniacki, Maffei & Eguía",
-      "title": "Effect of chaos in a one-channel time-reversal acoustic mirror",
-      "journal": "Physical Review E 100, 012208",
-      "url": "https://doi.org/10.1103/PhysRevE.100.012208",
-      "en": "Chaos and acoustic focusing",
-      "es": "Caos y focalización acústica"
+      "year": "2021",
+      "authors": "Gómez, Spiousas & Eguía",
+      "title": "Time reversal focusing in the audible range using a tunable sonic crystal",
+      "journal": "The Journal of the Acoustical Society of America 149(6), 4024–4035",
+      "url": "https://doi.org/10.1121/10.0005196",
+      "en": "Sonic crystals and time-reversal focusing",
+      "es": "Cristales sónicos y focalización por reversión temporal"
+    },
+    {
+      "year": "2017",
+      "authors": "Etchemendy, Abregú, Calcagno, Eguía, Vechiatti, Iasi & Vergara",
+      "title": "Auditory environmental context affects visual distance perception",
+      "journal": "Scientific Reports 7, 7189",
+      "url": "https://doi.org/10.1038/s41598-017-06495-3",
+      "en": "Acoustic context and spatial perception",
+      "es": "Contexto acústico y percepción espacial"
     },
     {
       "year": "2015",
@@ -650,13 +668,13 @@
       "es": "Cristales sónicos y distancia percibida"
     },
     {
-      "year": "2000",
-      "authors": "Eguía, Rabinovich & Abarbanel",
-      "title": "Information transmission and recovery in neural communication channels",
-      "journal": "Physical Review E 62, 7111",
-      "url": "https://doi.org/10.1103/PhysRevE.62.7111",
-      "en": "Neuroscience and information",
-      "es": "Neurociencias e información"
+      "year": "2014",
+      "authors": "Riera, Proscia & Eguía",
+      "title": "A comparative study of saxophone multiphonics: Musical, psychophysical and spectral analysis",
+      "journal": "Journal of New Music Research 43(2), 202–213",
+      "url": "https://doi.org/10.1080/09298215.2013.860993",
+      "en": "Multiphonics, timbre and musical practice",
+      "es": "Multifónicos, timbre y práctica musical"
     }
   ],
   "video_channels": [

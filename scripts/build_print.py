@@ -50,7 +50,7 @@ def rows(items):
 def publications():
     s='<ol class="research-list">'
     for p in D['publications']:
-        s+=f'<li><span class="year">{p["year"]}</span><div><div class="pub-title"><a href="{p["url"]}">{E(p["title"])}</a></div><div class="pub-meta">{E(p["authors"])} · {E(p["journal"])}</div><div class="doi"><a href="{p["url"]}">{p["url"].replace("https://doi.org/", "doi: ")}</a></div></div></li>'
+        s+=f'<li><span class="year">{p["year"]}</span><div><div class="pub-title"><a href="{p["url"]}">{E(p["title"])}</a></div><div class="pub-meta">{E(p["authors"])} · {E(p["journal"])}</div></div></li>'
     return s+'</ol>'
 
 def contact():
