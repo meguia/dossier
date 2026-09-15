@@ -1,6 +1,6 @@
-# Manuel Eguía — Sound, space & perception
+# Manuel Camilo Eguia — Sound, space & perception
 
-A permanent English/Spanish portfolio for sound artist, physicist and researcher Manuel Eguía.
+A permanent English/Spanish portfolio for sound artist, physicist and researcher Manuel Camilo Eguia.
 
 **Website:** https://meguia.github.io/dossier/
 
@@ -30,7 +30,7 @@ Only the curated text, selected images and finished portfolio/CV PDFs are includ
 
 The fonts are Liberation Sans and Liberation Serif; their licence is included in `assets/fonts/LICENSE.txt`.
 
-The project descriptions derive from the supplied Manuel Eguía, CERN, Transit and GRAPa dossiers. Career details use the supplied CVs and the author's stated 25 years working in an art-school environment. Dates and collaboration credits were cross-checked against records from UNQ, the Mercosul Biennial, La Biennale di Venezia, PAC Milano, Performing Arts Forum and the MCBA 2020 activity report. Research links point to the publishers' DOI records.
+The project descriptions derive from the supplied Manuel Camilo Eguia, CERN, Transit and GRAPa dossiers. Career details use the supplied CVs and the author's stated 25 years working in an art-school environment. Dates and collaboration credits were cross-checked against records from UNQ, the Mercosul Biennial, La Biennale di Venezia, PAC Milano, Performing Arts Forum and the MCBA 2020 activity report. Research links point to the publishers' DOI records.
 
 The Wind Chimes description and construction/performance credits use Buenos Aires Sonora’s 2011 project archive. IRIS uses UNQ project documentation, the supplied teaser and the 2022 Journal of New Music Research paper. The portfolio contains six selected projects.
 

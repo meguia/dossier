@@ -1,7 +1,7 @@
 {
-  "name": "Manuel Eguía",
-  "full_name": "Manuel Camilo Eguía",
-  "email": "meguia@unq.edu.ar",
+  "name": "Manuel Camilo Eguia",
+  "full_name": "Manuel Camilo Eguia",
+  "email": "me@lapso.org",
   "location": "Buenos Aires, Argentina",
   "edition": "2026",
   "base_url": "https://meguia.github.io/dossier/",
@@ -151,7 +151,7 @@
       {
         "year": "2011",
         "title": "The Wind Chimes / Lluvia de Arañas sobre el Riachuelo",
-        "detail": "Instrument design, construction and performance with Buenos Aires Sonora and LAPSo. La Noche de los Museos, Buenos Aires."
+        "detail": "Instrument design, construction and performance. Kultur Buro Barcelona / Buenos Aires Sonora / LAPSo. La Noche de los Museos, Buenos Aires."
       }
     ],
     "research_heading": "Selected publications",
@@ -179,7 +179,7 @@
       "highlights": "Exhibitions, residencies & support",
       "view": "View project",
       "back": "Back to top",
-      "credit": "Project documentation supplied by Manuel Eguía. Work credits appear alongside each project.",
+      "credit": "Project documentation supplied by Manuel Camilo Eguia. Work credits appear alongside each project.",
       "pdf_language": "English · PDF",
       "language": "Language",
       "skip": "Skip to content"
@@ -334,7 +334,7 @@
       {
         "year": "2011",
         "title": "Llamadores de Ángeles / Lluvia de Arañas sobre el Riachuelo",
-        "detail": "Diseño de instrumentos, construcción y performance con Buenos Aires Sonora y LAPSo. La Noche de los Museos, Buenos Aires."
+        "detail": "Diseño de instrumentos, construcción y performance. Kultur Buro Barcelona / Buenos Aires Sonora / LAPSo. La Noche de los Museos, Buenos Aires."
       }
     ],
     "research_heading": "Publicaciones seleccionadas",
@@ -362,7 +362,7 @@
       "highlights": "Exposiciones, residencias y apoyos",
       "view": "Ver proyecto",
       "back": "Volver al inicio",
-      "credit": "Documentación de los proyectos aportada por Manuel Eguía. Los créditos de autoría acompañan a cada obra.",
+      "credit": "Documentación de los proyectos aportada por Manuel Camilo Eguia. Los créditos de autoría acompañan a cada obra.",
       "pdf_language": "Inglés · PDF",
       "language": "Idioma",
       "skip": "Saltar al contenido"
@@ -376,7 +376,7 @@
       "id": "sonic-crystal-room",
       "number": "01",
       "year": "2019–2024",
-      "credit": "Manuel Eguía / Oscar Edelstein",
+      "credit": "Manuel Camilo Eguia / Oscar Edelstein",
       "image": "sonic-performance.jpg",
       "detail_image": "sonic-columns.jpg",
       "gallery": [
@@ -402,11 +402,11 @@
       ],
       "en": {
         "title": "Sonic Crystal Room",
-        "subtitle": "A room that becomes an instrument",
+        "subtitle": "Composing with sound in space using acoustic metamaterials",
         "medium": "Acoustic installation · Performance environment",
         "role": "Co-creator with Oscar Edelstein; acoustic research and development.",
         "context": "First presented at UNQ in 2019. Presented in the opening programme of the Festival de Nueva Ópera, cheLA, Buenos Aires, September 2024.",
-        "summary": "An architecture of mobile modules and rotating wooden columns transforms sound through physical acoustics. The room itself becomes a musical instrument.",
+        "summary": "Mobile modules and rotating wooden columns form an architecture of acoustic metamaterials for composing with sound in space.",
         "body": [
           "In Sonic Crystal Room, we use the acoustic behaviour of a space as a material for composition and performance. The columns form a sonic crystal: a repeated structure that changes how sound travels. Reconfiguring the structure changes what a listener hears and where the sound seems to be.",
           "The work makes architecture an active part of a performance. Movement, apparent distance and shifts in acoustic perspective emerge from the relationship between sound sources, the columns and the listener."
@@ -421,11 +421,11 @@
       },
       "es": {
         "title": "Sala Cristal Sónico",
-        "subtitle": "Una sala que se vuelve instrumento",
+        "subtitle": "Componer con sonido en el espacio mediante metamateriales acústicos",
         "medium": "Instalación acústica · Espacio de performance",
         "role": "Creador junto a Oscar Edelstein; investigación y desarrollo acústico.",
         "context": "Primera presentación en la UNQ en 2019. Programa de apertura del Festival de Nueva Ópera, cheLA, Buenos Aires, septiembre de 2024.",
-        "summary": "Una arquitectura de módulos móviles y columnas de madera giratorias transforma el sonido mediante la acústica física. La propia sala se vuelve un instrumento musical.",
+        "summary": "Módulos móviles y columnas de madera giratorias forman una arquitectura de metamateriales acústicos para componer con el sonido en el espacio.",
         "body": [
           "En Sala Cristal Sónico utilizamos el comportamiento acústico del espacio como material para la composición y la performance. Las columnas forman un cristal sónico: una estructura periódica que modifica la propagación del sonido. Reconfigurar esa estructura cambia lo que se escucha y el lugar del que parece provenir.",
           "La arquitectura participa activamente de la obra. El movimiento, la distancia aparente y los cambios de perspectiva acústica surgen de la relación entre las fuentes sonoras, las columnas y quien escucha."
@@ -446,7 +446,7 @@
       "id": "wind-chimes",
       "number": "02",
       "year": "2011",
-      "credit": "Buenos Aires Sonora / LAPSo",
+      "credit": "Kultur Buro Barcelona / Buenos Aires Sonora / LAPSo",
       "image": "wind-chimes-building.jpg",
       "hero_pair": "wind-chimes-bridge.jpg",
       "card_position": "center 78%",
@@ -462,8 +462,8 @@
       ],
       "en": {
         "title": "The Wind Chimes",
-        "subtitle": "Tubular instruments for a bridge and a river",
-        "medium": "Site-specific instruments · Collective performance",
+        "subtitle": "Sound installation at the Riachuelo in Buenos Aires",
+        "medium": "Sound installation · Collective performance",
         "role": "Instrument design; construction and performance with LAPSo, in collaboration with Buenos Aires Sonora.",
         "context": "El Puente Suena II [Invocaciones], within Lluvia de Arañas sobre el Riachuelo. La Noche de los Museos, Puente Transbordador Nicolás Avellaneda, La Boca, Buenos Aires, 12 November 2011.",
         "summary": "Five large tubular wind chimes, suspended from the Nicolás Avellaneda transporter bridge, were played during a collective sound performance over the Riachuelo.",
@@ -475,7 +475,7 @@
         "detail": [
           "We built and tested the tubular instruments at LAPSo before installing them on the bridge. The installation photographs show the instruments being assembled, suspended and activated from a boat below.",
           "The wind chimes formed one part of Buenos Aires Sonora’s performance. Other performers used the bridge’s metal structure as a sound source, alongside recorded voices and live electronics.",
-          "Instrument concept: Hernán Kerlleñevich. Design: Manuel Eguía. Construction: Manuel Eguía, Ignacio Spiousas, Mauricio Biviano, Pablo Riera and Pablo Etchemendy. Performers on the large chimes: Manuel Eguía, Ignacio Spiousas, Mauricio Biviano, Pablo Riera and Ramiro Vergara."
+          "Instrument concept: Hernán Kerlleñevich. Design: Manuel Camilo Eguia. Construction: Manuel Camilo Eguia, Ignacio Spiousas, Mauricio Biviano, Pablo Riera and Pablo Etchemendy. Performers on the large chimes: Manuel Camilo Eguia, Ignacio Spiousas, Mauricio Biviano, Pablo Riera and Ramiro Vergara."
         ],
         "image_credit": "Photographs: Ximena Martinez / Buenos Aires Sonora archive.",
         "alt": "The team assembling large metal wind-chime tubes on a boat beneath the transporter bridge.",
@@ -484,8 +484,8 @@
       },
       "es": {
         "title": "Llamadores de Ángeles",
-        "subtitle": "Instrumentos tubulares para un puente y un río",
-        "medium": "Instrumentos para sitio específico · Performance colectiva",
+        "subtitle": "Instalación sonora en el Riachuelo de Buenos Aires",
+        "medium": "Instalación sonora · Performance colectiva",
         "role": "Diseño de los instrumentos; construcción y performance con LAPSo, en colaboración con Buenos Aires Sonora.",
         "context": "El Puente Suena II [Invocaciones], dentro de Lluvia de Arañas sobre el Riachuelo. La Noche de los Museos, Puente Transbordador Nicolás Avellaneda, La Boca, Buenos Aires, 12 de noviembre de 2011.",
         "summary": "Cinco grandes llamadores tubulares, suspendidos del Puente Transbordador Nicolás Avellaneda, fueron ejecutados durante una performance sonora colectiva sobre el Riachuelo.",
@@ -497,7 +497,7 @@
         "detail": [
           "Construimos y probamos los instrumentos tubulares en LAPSo antes de instalarlos en el puente. Las fotografías del montaje muestran el armado, la suspensión y la activación de los instrumentos desde una embarcación.",
           "Los llamadores formaban parte de la performance de Buenos Aires Sonora. Otros performers utilizaban la estructura metálica del puente como fuente sonora, junto con voces grabadas y electrónica en vivo.",
-          "Idea de los instrumentos: Hernán Kerlleñevich. Diseño: Manuel Eguía. Luthería: Manuel Eguía, Ignacio Spiousas, Mauricio Biviano, Pablo Riera y Pablo Etchemendy. Performers en los grandes llamadores: Manuel Eguía, Ignacio Spiousas, Mauricio Biviano, Pablo Riera y Ramiro Vergara."
+          "Idea de los instrumentos: Hernán Kerlleñevich. Diseño: Manuel Camilo Eguia. Luthería: Manuel Camilo Eguia, Ignacio Spiousas, Mauricio Biviano, Pablo Riera y Pablo Etchemendy. Performers en los grandes llamadores: Manuel Camilo Eguia, Ignacio Spiousas, Mauricio Biviano, Pablo Riera y Ramiro Vergara."
         ],
         "image_credit": "Fotografías: Ximena Martinez / archivo de Buenos Aires Sonora.",
         "alt": "El equipo arma los grandes tubos metálicos de un llamador sobre una embarcación bajo el puente transbordador.",
@@ -509,7 +509,7 @@
       "id": "iris",
       "number": "03",
       "year": "2018–2019",
-      "credit": "Leonardo Salzano / Manuel Eguía · LAPSo",
+      "credit": "Leonardo Salzano / Manuel Camilo Eguia · LAPSo",
       "image": "iris-teaser.jpg",
       "detail_image": null,
       "gallery": [],
@@ -530,11 +530,11 @@
       ],
       "en": {
         "title": "IRIS",
-        "subtitle": "Rotating discs, changing sound",
+        "subtitle": "An acoustic fishnet as a dynamical extension of an acoustic musical instrument",
         "medium": "Kinetic acoustic sculpture · Musical performance",
         "role": "Scientific advice, acoustic research, construction and programming with Leonardo Salzano. Original and technical design: Leonardo Salzano.",
         "context": "2018–2019 version documented in the teaser. Presented in the Sonic Crystal Room programme at UNQ in April 2019. Related study published in Journal of New Music Research (2022).",
-        "summary": "A kinetic acoustic sculpture of two independently rotating, perforated discs. Their relative alignment changes how sound passes through the structure, affecting timbre and spatial projection.",
+        "summary": "An acoustic fishnet formed by two independently rotating, perforated discs. Their relative alignment changes how an acoustic instrument’s sound is transmitted, affecting timbre and spatial projection.",
         "body": [
           "Developed at LAPSo from Leonardo Salzano’s original design, IRIS forms part of our work on acoustic materials for performance. We combine physical experimentation, construction and programming to make the geometry of the sculpture adjustable during a musical work.",
           "Placed between a source and listeners, the discs alter the transmission of particular frequency bands. Rotation changes the relationship between the two layers, allowing the sculpture to modify the sound’s spectral balance and apparent location."
@@ -550,11 +550,11 @@
       },
       "es": {
         "title": "IRIS",
-        "subtitle": "Discos que giran, sonido que cambia",
+        "subtitle": "Una malla acústica como extensión dinámica de un instrumento musical acústico",
         "medium": "Escultura acústica cinética · Performance musical",
         "role": "Asesoramiento científico, investigación acústica, construcción y programación junto a Leonardo Salzano. Diseño original y técnico: Leonardo Salzano.",
         "context": "Versión 2018–2019 documentada en el teaser. Presentada en la programación de Sala Cristal Sónico en la UNQ en abril de 2019. Estudio relacionado publicado en Journal of New Music Research (2022).",
-        "summary": "Una escultura acústica cinética de dos discos perforados que giran de manera independiente. Su alineación relativa modifica el paso del sonido a través de la estructura, afectando el timbre y la proyección espacial.",
+        "summary": "Una malla acústica formada por dos discos perforados que giran de manera independiente. Su alineación relativa modifica la transmisión del sonido de un instrumento acústico, afectando el timbre y la proyección espacial.",
         "body": [
           "Desarrollada en LAPSo a partir del diseño original de Leonardo Salzano, IRIS forma parte de nuestro trabajo sobre materiales acústicos para la performance. Combinamos experimentación física, construcción y programación para modificar la geometría de la escultura durante una obra musical.",
           "Situados entre una fuente y quienes escuchan, los discos modifican la transmisión de determinadas bandas de frecuencia. La rotación cambia la relación entre ambas capas y permite alterar el balance espectral y la localización aparente del sonido."
@@ -574,7 +574,7 @@
       "id": "transit",
       "number": "04",
       "year": "2023",
-      "credit": "Manuel Eguía / Mauro Zannoli",
+      "credit": "Manuel Camilo Eguia / Mauro Zannoli",
       "image": "transit-container.jpg",
       "detail_image": "transit-threshold.jpg",
       "gallery": [
@@ -596,11 +596,11 @@
       ],
       "en": {
         "title": "Transit",
-        "subtitle": "Inside, outside, elsewhere",
+        "subtitle": "A post-pandemic VR piece",
         "medium": "Site-specific virtual reality installation",
         "role": "Co-creator with Mauro Zannoli.",
         "context": "Commissioned by Northern Sustainable Futures for iM Konsthall. Developed during an artist residency in Moskosel, Sweden, October 2023.",
-        "summary": "A virtual journey begins in an exact replica of the room the participant occupies. Familiar space gradually opens into impossible interiors and transformed landscapes.",
+        "summary": "A post-pandemic VR piece begins in an exact replica of the participant’s room and opens into impossible interiors and transformed landscapes.",
         "body": [
           "We conceived Transit as a series of site-specific virtual reality experiences. Each episode starts from the participant’s immediate physical surroundings, making the transition into a virtual world difficult to locate. Local architecture, landscape and cultural references become the material of the work.",
           "The first episode takes place in iM Konsthall, a mobile gallery built inside a shipping container. Its interior multiplies and transforms through a sequence of spatial folds, until the participant finds themself outside, in the northern Swedish forest at night, looking for the way back."
@@ -615,11 +615,11 @@
       },
       "es": {
         "title": "Transit",
-        "subtitle": "Adentro, afuera, en otro lugar",
+        "subtitle": "Una obra de realidad virtual pospandémica",
         "medium": "Instalación de realidad virtual para sitio específico",
         "role": "Creador junto a Mauro Zannoli.",
         "context": "Encargo de Northern Sustainable Futures para iM Konsthall. Desarrollado durante una residencia artística en Moskosel, Suecia, octubre de 2023.",
-        "summary": "Un viaje virtual comienza en una réplica exacta de la sala que ocupa el participante. El espacio familiar se abre gradualmente a interiores imposibles y paisajes transformados.",
+        "summary": "Una obra de realidad virtual pospandémica comienza en una réplica exacta de la sala del participante y se abre a interiores imposibles y paisajes transformados.",
         "body": [
           "Concebimos Transit como una serie de experiencias de realidad virtual para sitio específico. Cada episodio parte del entorno físico inmediato, desdibujando el pasaje al mundo virtual. La arquitectura, el paisaje y las referencias culturales locales se convierten en materia de la obra.",
           "El primer episodio transcurre en iM Konsthall, una galería móvil construida dentro de un contenedor de transporte. Su interior se multiplica y transforma mediante una secuencia de pliegues espaciales, hasta situar al participante afuera, en el bosque del norte de Suecia durante la noche, buscando el camino de regreso."
@@ -637,7 +637,7 @@
       "id": "grapa",
       "number": "05",
       "year": "2017–",
-      "credit": "Proyecto GRAPa · Manuel Eguía, Francisco Durante, Damián Payo, Mauro Zannoli",
+      "credit": "Proyecto GRAPa · Manuel Camilo Eguia, Francisco Durante, Damián Payo, Mauro Zannoli",
       "image": "grapa-circle.jpg",
       "detail_image": "grapa-fieldwork.jpg",
       "gallery": [
@@ -658,7 +658,7 @@
       ],
       "en": {
         "title": "Proyecto GRAPa",
-        "subtitle": "Listening to a voice and the place that answers it",
+        "subtitle": "An encounter between music and the landscape",
         "medium": "Acoustic heritage · Immersive recording · Documentary",
         "role": "Founder and member of the research and production team.",
         "context": "Formed in 2017 through cooperation between UNQ and Universidad Católica de Salta. Fieldwork at the natural amphitheatre of Quebrada de las Conchas, Salta, April 2018. Latin GRAMMY Cultural Foundation research support, 2021.",
@@ -678,7 +678,7 @@
       },
       "es": {
         "title": "Proyecto GRAPa",
-        "subtitle": "Escuchar una voz y el lugar que le responde",
+        "subtitle": "Un encuentro entre la música y el paisaje",
         "medium": "Patrimonio acústico · Registro inmersivo · Documental",
         "role": "Fundador e integrante del equipo de investigación y producción.",
         "context": "Formado en 2017 a partir de la cooperación entre la UNQ y la Universidad Católica de Salta. Trabajo de campo en el Anfiteatro Natural de la Quebrada de las Conchas, Salta, abril de 2018. Apoyo de investigación de la Fundación Cultural Latin GRAMMY, 2021.",
@@ -719,36 +719,36 @@
       ],
       "en": {
         "title": "Biocenosis",
-        "subtitle": "A city as an interdependent system",
+        "subtitle": "A post-apocalyptic city as an interdependent system",
         "medium": "Interactive installation · Sculpture, light and sound",
-        "role": "Collaborating artist and researcher within LAPSo. Biennial team: Manuel Eguía, Lucas González, Pablo Riera and Sol Gómez.",
+        "role": "Collaborating artist and researcher within LAPSo. Biennial team: Manuel Camilo Eguia, Lucas González, Pablo Riera and Sol Gómez.",
         "context": "13th Mercosul Biennial, Porto Alegre, Brazil, 15 September–20 November 2022.",
-        "summary": "An immersive city model stages the interdependence of human, urban and non-human life under environmental pressure.",
+        "summary": "An immersive model of a post-apocalyptic city stages the interdependence of human, urban and non-human life under environmental pressure.",
         "body": [
           "A model of 430 buildings represents a submerged urban landscape. Sculpture, lighting and interactive systems respond to visitors’ presence, changing the behaviour of the fictional city.",
           "The installation was developed by Sigismond de Vajay in collaboration with Kevin Lesquenner and LAPSo, using systems inspired by biological processes. As the LAPSo team, we contributed to the work collectively."
         ],
         "detail_title": "Collective authorship",
         "detail": [
-          "Presented at the 13th Mercosul Biennial in 2022. The biennial catalogue credits Sigismond de Vajay & Kevin Lesquenner + LAPSo, identifying the laboratory team as Manuel Eguía, Lucas González, Pablo Riera and Sol Gómez."
+          "Presented at the 13th Mercosul Biennial in 2022. The biennial catalogue credits Sigismond de Vajay & Kevin Lesquenner + LAPSo, identifying the laboratory team as Manuel Camilo Eguia, Lucas González, Pablo Riera and Sol Gómez."
         ],
         "alt": "Illuminated buildings in the city model of Biocenosis beneath a blue atmospheric projection.",
         "detail_alt": "Biocenosis, view of the illuminated city model."
       },
       "es": {
         "title": "Biocenosis",
-        "subtitle": "La ciudad como sistema interdependiente",
+        "subtitle": "Una ciudad posapocalíptica como sistema interdependiente",
         "medium": "Instalación interactiva · Escultura, luz y sonido",
-        "role": "Artista e investigador colaborador dentro de LAPSo. Equipo en la bienal: Manuel Eguía, Lucas González, Pablo Riera y Sol Gómez.",
+        "role": "Artista e investigador colaborador dentro de LAPSo. Equipo en la bienal: Manuel Camilo Eguia, Lucas González, Pablo Riera y Sol Gómez.",
         "context": "13.ª Bienal del Mercosur, Porto Alegre, Brasil, 15 de septiembre–20 de noviembre de 2022.",
-        "summary": "Una maqueta urbana inmersiva pone en escena la interdependencia entre lo humano, lo urbano y lo no humano bajo presión ambiental.",
+        "summary": "Una maqueta inmersiva de una ciudad posapocalíptica pone en escena la interdependencia entre lo humano, lo urbano y lo no humano bajo presión ambiental.",
         "body": [
           "Una maqueta de 430 edificios representa un paisaje urbano sumergido. Escultura, iluminación y sistemas interactivos responden a la presencia de los visitantes y modifican el comportamiento de la ciudad ficticia.",
           "La instalación fue desarrollada por Sigismond de Vajay en colaboración con Kevin Lesquenner y LAPSo, con sistemas inspirados en procesos biológicos. Como equipo de LAPSo, participamos colectivamente en la obra."
         ],
         "detail_title": "Autoría colectiva",
         "detail": [
-          "Presentada en la 13.ª Bienal del Mercosur en 2022. El catálogo acredita a Sigismond de Vajay y Kevin Lesquenner + LAPSo e identifica al equipo del laboratorio: Manuel Eguía, Lucas González, Pablo Riera y Sol Gómez."
+          "Presentada en la 13.ª Bienal del Mercosur en 2022. El catálogo acredita a Sigismond de Vajay y Kevin Lesquenner + LAPSo e identifica al equipo del laboratorio: Manuel Camilo Eguia, Lucas González, Pablo Riera y Sol Gómez."
         ],
         "alt": "Edificios iluminados de la maqueta urbana de Biocenosis bajo una proyección atmosférica azul.",
         "detail_alt": "Biocenosis, vista de la maqueta urbana iluminada."
@@ -758,7 +758,7 @@
   "publications": [
     {
       "year": "2026",
-      "authors": "Cerviño, Lombera, Piceda, Eguía & Vergara",
+      "authors": "Cerviño, Lombera, Piceda, Eguia & Vergara",
       "title": "The influence of visual context on auditory distance perception: A comparison between real and virtual visual environments",
       "journal": "Applied Acoustics 250, 111334",
       "url": "https://doi.org/10.1016/j.apacoust.2026.111334",
@@ -767,7 +767,7 @@
     },
     {
       "year": "2026",
-      "authors": "Ortega Brook, Ruiz & Eguía",
+      "authors": "Ortega Brook, Ruiz & Eguia",
       "title": "Real-time sound synthesis from normal forms of dynamical systems",
       "journal": "Journal of New Music Research · Online publication 2026",
       "url": "https://doi.org/10.1080/09298215.2026.2634043",
@@ -776,7 +776,7 @@
     },
     {
       "year": "2025",
-      "authors": "Gómez, Spiousas & Eguía",
+      "authors": "Gómez, Spiousas & Eguia",
       "title": "Encrypted acoustical communication system using time reversal through a tunable sonic crystal",
       "journal": "The Journal of the Acoustical Society of America 158(3), 2100–2110",
       "url": "https://doi.org/10.1121/10.0039245",
@@ -785,7 +785,7 @@
     },
     {
       "year": "2022",
-      "authors": "Salzano & Eguía",
+      "authors": "Salzano & Eguia",
       "title": "IRIS: A tunable sound sculpture based on acoustic periodic composites for musical performance",
       "journal": "Journal of New Music Research 51, 27–39",
       "url": "https://doi.org/10.1080/09298215.2022.2049313",
@@ -794,7 +794,7 @@
     },
     {
       "year": "2021",
-      "authors": "Gómez, Spiousas & Eguía",
+      "authors": "Gómez, Spiousas & Eguia",
       "title": "Time reversal focusing in the audible range using a tunable sonic crystal",
       "journal": "The Journal of the Acoustical Society of America 149(6), 4024–4035",
       "url": "https://doi.org/10.1121/10.0005196",
@@ -803,7 +803,7 @@
     },
     {
       "year": "2017",
-      "authors": "Etchemendy, Abregú, Calcagno, Eguía, Vechiatti, Iasi & Vergara",
+      "authors": "Etchemendy, Abregú, Calcagno, Eguia, Vechiatti, Iasi & Vergara",
       "title": "Auditory environmental context affects visual distance perception",
       "journal": "Scientific Reports 7, 7189",
       "url": "https://doi.org/10.1038/s41598-017-06495-3",
@@ -812,7 +812,7 @@
     },
     {
       "year": "2015",
-      "authors": "Spiousas, Etchemendy, Vergara, Calcagno & Eguía",
+      "authors": "Spiousas, Etchemendy, Vergara, Calcagno & Eguia",
       "title": "An auditory illusion of proximity of the source induced by sonic crystals",
       "journal": "PLOS ONE 10, e0133271",
       "url": "https://doi.org/10.1371/journal.pone.0133271",
@@ -821,7 +821,7 @@
     },
     {
       "year": "2014",
-      "authors": "Riera, Proscia & Eguía",
+      "authors": "Riera, Proscia & Eguia",
       "title": "A comparative study of saxophone multiphonics: Musical, psychophysical and spectral analysis",
       "journal": "Journal of New Music Research 43(2), 202–213",
       "url": "https://doi.org/10.1080/09298215.2013.860993",

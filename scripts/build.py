@@ -35,7 +35,7 @@ def header(lang, prefix, project=None):
         attr='aria-current="page"' if language==lang else ''
         lang_path='es/' if language=='es' else ''
         languages+=f'<a href="{prefix}{lang_path}{current}" lang="{language}" hreflang="{language}" {attr}>{language.upper()}</a>'
-    return f'<a class="skip" href="#main">{E(t["labels"]["skip"])}</a><div class="wrap"><header class="site-header" id="top"><a class="brand" href="{home}">Manuel Eguía</a><nav class="nav" aria-label="Main">{nav}<span class="lang" aria-label="{E(t["labels"]["language"])}">{languages}</span></nav></header></div>'
+    return f'<a class="skip" href="#main">{E(t["labels"]["skip"])}</a><div class="wrap"><header class="site-header" id="top"><a class="brand" href="{home}">{E(DATA["name"])}</a><nav class="nav" aria-label="Main">{nav}<span class="lang" aria-label="{E(t["labels"]["language"])}">{languages}</span></nav></header></div>'
 
 def footer(lang):
     t=DATA[lang]
@@ -43,11 +43,11 @@ def footer(lang):
 
 def shell(lang,body,prefix,project=None):
     t=DATA[lang]; path=('es/' if lang=='es' else '')+('works/'+project['id']+'/' if project else '')
-    title=(project[lang]['title']+' — ' if project else '')+'Manuel Eguía — '+t['title']
+    title=(project[lang]['title']+' — ' if project else '')+DATA['name']+' — '+t['title']
     desc=project[lang]['summary'] if project else t['intro']
     og=project['image'] if project else 'sonic-performance.jpg'
     alternates=''.join(f'<link rel="alternate" hreflang="{l}" href="{DATA["base_url"]}{("es/" if l=="es" else "")}{("works/"+project["id"]+"/" if project else "")}">' for l in ['en','es'])
-    schema={'@context':'https://schema.org','@type':'Person','name':'Manuel Camilo Eguía','alternateName':'Manuel Eguía','url':DATA['base_url'],'jobTitle':t['role'],'sameAs':[c['url'] for c in DATA['video_channels']]}
+    schema={'@context':'https://schema.org','@type':'Person','name':DATA['full_name'],'email':DATA['email'],'url':DATA['base_url'],'jobTitle':t['role'],'sameAs':[c['url'] for c in DATA['video_channels']]}
     return f'<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{E(title)}</title><meta name="description" content="{E(desc)}"><meta name="theme-color" content="#f3f2ec"><link rel="canonical" href="{DATA["base_url"]}{path}">{alternates}<meta property="og:type" content="website"><meta property="og:title" content="{E(title)}"><meta property="og:description" content="{E(desc)}"><meta property="og:url" content="{DATA["base_url"]}{path}"><meta property="og:image" content="{DATA["base_url"]}assets/images/{og}"><meta name="twitter:card" content="summary_large_image"><link rel="stylesheet" href="{prefix}assets/site.css"><script type="application/ld+json">{json.dumps(schema,ensure_ascii=False)}</script></head><body>{header(lang,prefix,project)}{body}{footer(lang)}</body></html>'
 
 def rows(items):
@@ -79,7 +79,7 @@ def homepage(lang):
 <section class="opening"><p class="opening-text">{E(t['intro'])}</p>{downloads(lang,prefix)}</section>
 <section class="section selected-works" id="works"><div class="section-heading"><div><p class="eyebrow">01—{len(DATA["projects"]):02d}</p><h1 class="works-heading">{E(t['work_heading'])}</h1></div><p>{E(t['work_intro'])}</p></div><div class="works-grid">{cards}</div></section>
 </div>
-<section class="statement-section" id="practice"><div class="about-layout"><figure class="about-image">{image('portrait.jpg','Manuel Eguía',prefix,'about-portrait')}</figure><div class="about-copy"><p class="eyebrow">{E(t['about_heading'])}</p><h2>{E(t['statement_title'])}</h2>{paras(t['statement'],linked=True)}</div></div></section>
+<section class="statement-section" id="practice"><div class="about-layout"><figure class="about-image">{image('portrait.jpg',DATA['name'],prefix,'about-portrait')}</figure><div class="about-copy"><p class="eyebrow">{E(t['about_heading'])}</p><h2>{E(t['statement_title'])}</h2>{paras(t['statement'],linked=True)}</div></div></section>
 <div class="wrap">
 <section class="section interdisciplinary-section" id="interdisciplinary"><h2>{E(t['practice_heading'])}</h2><div class="interdisciplinary-grid"><div>{paras(t['practice'],linked=True)}</div><div class="current"><h3>{E(t['current_heading'])}</h3><p>{E(t['current'])}</p></div></div><p class="collective-description">{E(t['collab_intro'])}</p></section>
 <section class="section collab-section" id="collaborations"><h2>{E(t['collab_heading'])}</h2>{rows(t['collaborations']).replace('class="list"','class="list collab-list"')}</section>
