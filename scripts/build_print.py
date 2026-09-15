@@ -5,6 +5,7 @@ from html import escape as E
 import json
 import re
 import argparse
+from text_links import institutional_text
 
 ROOT=Path(__file__).resolve().parents[1]
 DEST=ROOT.parent/'working/print'
@@ -42,9 +43,9 @@ def work(n,p,cls=''):
 def rows(items):
     s=''
     for x in items:
-        s+=f'<div class="print-row"><span class="year">{E(x["year"])}</span><div><h4>{E(x["title"])}</h4>'
+        s+=f'<div class="print-row"><span class="year">{E(x["year"])}</span><div><h4>{institutional_text(x["title"])}</h4>'
         if x.get('artist'): s+=f'<p>{E(x["artist"])}</p>'
-        s+=f'<p>{E(x["detail"])}</p></div></div>'
+        s+=f'<p>{institutional_text(x["detail"])}</p></div></div>'
     return s
 
 def publications():
@@ -73,7 +74,7 @@ def main():
     p=D['projects'];pages=[]
     cover=f'<div class="cover-top"><span class="cover-name">Manuel Eguía</span><span>Selected works &amp; practice<br>2026</span></div><div class="cover-main"><div><h1>Sound,<br>space &amp;<br><em>perception.</em></h1><p class="role">Sound artist · Physicist · Researcher<br>Buenos Aires, Argentina</p><div class="small-links"><a href="https://vimeo.com/meguia">Vimeo ↗</a><a href="https://www.youtube.com/@manueleguia2915">YouTube ↗</a><a href="{D["base_url"]}">Website ↗</a></div></div><figure>{img("sonic-performer.jpg","cover-image",p[0]["en"]["alt"])}<figcaption class="caption">Sonic Crystal Room · Manuel Eguía / Oscar Edelstein</figcaption></figure></div>'
     pages.append(page(1,'Sound, space & perception',cover,'cover'))
-    statement=f'<p class="eyebrow">Position / Biography</p><div class="statement-grid"><div><h2>{E(T["statement_title"])}</h2><div class="body">{paras(T["statement"])}</div></div><aside>{img("portrait.jpg","portrait","Manuel Eguía")}<div class="statement-bio">{E(T["bio"])}</div></aside></div>'
+    statement=f'<p class="eyebrow">Position / Biography</p><div class="statement-grid"><div><h2>{E(T["statement_title"])}</h2><div class="body">{paras(T["statement"])}</div></div><aside>{img("portrait.jpg","portrait","Manuel Eguía")}<div class="statement-bio">{institutional_text(T["bio"])}</div></aside></div>'
     pages.append(page(2,'Position & biography',statement))
     pages.append(work(3,p[0]))
     detail=f'<p class="eyebrow">Sonic Crystal Room / Acoustic architecture</p><div class="detail-grid">{img("sonic-columns.jpg","",p[0]["en"]["detail_alt"])}<div class="detail-text"><h2>{E(p[0]["en"]["detail_title"])}</h2>{paras(p[0]["en"]["detail"])}{img("sonic-red.jpg","detail-small","Sonic Crystal Room, rotating columns illuminated in red.")}<p class="caption">Mobile structures, changing acoustic perspectives.<br>Manuel Eguía / Oscar Edelstein</p></div></div>'
