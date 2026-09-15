@@ -20,7 +20,7 @@ The PDF masters are generated separately:
 python3 scripts/build_print.py
 ```
 
-Open the resulting HTML files in `build/print/` and print to PDF with backgrounds enabled, no browser headers or footers, and the page sizes defined in the files. The portfolio has fifteen A4 landscape pages; the selected CV has two. Copy updated PDFs to `docs/downloads/` after reviewing them.
+Open the resulting HTML files in `build/print/` and print to PDF with backgrounds enabled, no browser headers or footers, and the page sizes defined in the files. The portfolio has sixteen A4 landscape pages; the selected CV has two. Copy updated PDFs to `docs/downloads/` after reviewing them.
 
 An optional `--proposal /path/to/residency-proposal.md` argument prepares a one-page A4 portrait application document. That source and the generated application document are kept outside `docs/`.
 
@@ -35,3 +35,5 @@ The project descriptions derive from the supplied Manuel Eguía, CERN, Transit a
 The Wind Chimes description and construction/performance credits use Buenos Aires Sonora’s 2011 project archive. IRIS uses UNQ project documentation, the supplied teaser and the 2022 Journal of New Music Research paper. The portfolio contains six selected projects.
 
 The website opens with a short introduction and download links, followed by the six selected works. About / Sobre mí uses first-person prose; the PDF opens with a linked works index and places About after the project selection. The website and PDFs use Liberation Sans throughout.
+
+About pairs a full-height portrait on the left with one merged text column on the right. The following sections run in this order: Interdisciplinary work and current research, selected international collaborations, PAF workshops, then the CV. The portfolio gives PAF workshops their own page immediately before the CV.

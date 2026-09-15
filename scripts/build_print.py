@@ -16,7 +16,9 @@ ASSETS=(ROOT/'assets').as_uri()+'/'
 def img(name,cls='',alt=''):
     return f'<img src="{ASSETS}images/{name}" class="{cls}" alt="{E(alt)}">'
 
-def paras(items): return ''.join(f'<p>{E(x)}</p>' for x in items)
+def paras(items, linked=False):
+    format_text=institutional_text if linked else E
+    return ''.join(f'<p>{format_text(x)}</p>' for x in items)
 
 def links(p):
     return '<div class="links">'+''.join(f'<a class="text-link" href="{E(x["url"])}">{E(x["en"])} ↗</a>' for x in p['links'])+'</div>'
@@ -86,7 +88,7 @@ def main():
     contents_items=''.join(f'<li><p class="work-index">{p["number"]} / {p["year"]}</p><a href="{D["base_url"]}works/{p["id"]}/">{E(p["en"]["title"])} ↗</a><p class="work-description">{E(p["en"]["subtitle"])}</p></li>' for p in D['projects'])
     contents=f'<p class="eyebrow">Manuel Eguía / Portfolio</p><p class="contents-intro">{E(T["intro"])}</p><div class="contents-links"><a href="{D["base_url"]}">Website ↗</a><a href="{D["base_url"]}downloads/Manuel-Eguia-CV.pdf">Selected CV ↗</a></div><h2>{E(T["work_heading"])}</h2><ol class="work-contents">{contents_items}</ol>'
     pages.append(page(len(pages)+1,'Selected works',contents,'contents-page'))
-    statement=f'<p class="eyebrow">{E(T["about_heading"])}</p><div class="statement-grid"><div><h2>{E(T["statement_title"])}</h2><div class="body">{paras(T["statement"])}</div></div><aside>{img("portrait.jpg","portrait","Manuel Eguía")}<div class="statement-bio">{institutional_text(T["bio"])}</div></aside></div>'
+    statement=f'<div class="about-print-grid"><figure>{img("portrait.jpg","about-print-portrait","Manuel Eguía")}</figure><div class="about-print-copy"><p class="eyebrow">{E(T["about_heading"])}</p><h2>{E(T["statement_title"])}</h2><div class="body">{paras(T["statement"],linked=True)}</div></div></div>'
     pages.append(work(len(pages)+1,sonic))
     detail=f'<p class="eyebrow">Sonic Crystal Room / Acoustic architecture</p><div class="detail-grid">{img("sonic-columns.jpg","",sonic["en"]["detail_alt"])}<div class="detail-text"><h2>{E(sonic["en"]["detail_title"])}</h2>{paras(sonic["en"]["detail"])}{img("sonic-red.jpg","detail-small","Sonic Crystal Room, rotating columns illuminated in red.")}<p class="caption">Mobile structures, changing acoustic perspectives.<br>Manuel Eguía / Oscar Edelstein</p></div></div>'
     pages.append(page(len(pages)+1,'Sonic Crystal Room',detail,'image-detail'))
@@ -107,15 +109,17 @@ def main():
     grapa=f'<header class="page-head"><p class="eyebrow">Proyecto GRAPa / Fieldwork, April 2018</p><h2>{E(gd["detail_title"])}</h2></header><div class="process-grid"><div>{img("grapa-fieldwork.jpg","field-photo",gd["detail_alt"])}<div class="process-pair">{img("grapa-acoustics.jpg","","Acoustic measurement equipment in the natural amphitheatre.")}{img("grapa-coplera.jpg","","A coplera with her caja at Quebrada de las Conchas.")}</div><p class="caption">La Copla y el Anfiteatro de la Quebrada de las Conchas · Salta, Argentina<br>GRAPa, with Mariana Carrizo and local copleras and copleros.</p></div><div>{steps}<p class="small"><strong>Founder:</strong> Manuel Eguía<br>Team: Francisco Durante, Damián Payo, Mauro Zannoli and Manuel Eguía.</p></div></div>'
     pages.append(page(len(pages)+1,'Proyecto GRAPa',grapa,'grapa-process'))
     pages.append(work(len(pages)+1,biocenosis,'biocenosis'))
-    pages.append(page(len(pages)+1,T['about_heading'],statement))
-    practice=f'<p class="eyebrow">Laboratory / Education / Collaboration</p><h2>{E(T["practice_heading"])}</h2><div class="practice-cols"><div><div class="body">{paras(T["practice"])}</div><h3>{E(T["workshop_heading"])}</h3><p class="small">L.I.F.E. project, Performing Arts Forum, Saint-Erme, France. Initiated by Gabriel Catren.</p><div class="workshop-list">{rows(T["workshops"])}</div></div><div><h3 style="margin-top:0">Selected collaborations</h3><p class="small">Sound design and technological development in dialogue with the authors of these works.</p>{rows(T["collaborations"])}</div></div>'
-    pages.append(page(len(pages)+1,'Research, teaching & collaboration',practice,'practice-page'))
+    pages.append(page(len(pages)+1,T['about_heading'],statement,'about-page'))
+    practice=f'<p class="eyebrow">Laboratory / Education / Collaboration</p><h2>{E(T["practice_heading"])}</h2><div class="practice-cols"><div><div class="body">{paras(T["practice"],linked=True)}<h3>{E(T["current_heading"])}</h3><p>{E(T["current"])}</p><p>{E(T["collab_intro"])}</p></div></div><div><h3 class="collaboration-heading">{E(T["collab_heading"])}</h3>{rows(T["collaborations"])}</div></div>'
+    pages.append(page(len(pages)+1,T['practice_heading'],practice,'practice-page'))
+    workshops=f'<p class="eyebrow">International workshops / Saint-Erme, France</p><h2>{E(T["workshop_heading"])}</h2><div class="workshops-print-grid"><div class="body"><p>{E(T["workshop_intro"])}</p></div><div class="workshop-list">{rows(T["workshops"])}</div></div>'
+    pages.append(page(len(pages)+1,T['workshop_heading'],workshops,'workshops-page'))
     pages.append(page(len(pages)+1,'Selected CV',cv_content(),'cv-page'))
-    last=f'<p class="eyebrow">Selected CV / Research</p><h2>{E(T["research_heading"])}</h2><div class="research-cols"><div class="body"><p>{E(T["research_intro"])}</p><h3>{E(T["current_heading"])}</h3><p>{E(T["current"])}</p>{contact()}<p class="doc-credit">Work and image credits appear on the relevant project pages.</p></div><div>{publications()}</div></div>'
+    last=f'<p class="eyebrow">Selected CV / Research</p><h2>{E(T["research_heading"])}</h2><div class="research-cols"><div class="body"><p>{E(T["research_intro"])}</p>{contact()}<p class="doc-credit">Work and image credits appear on the relevant project pages.</p></div><div>{publications()}</div></div>'
     pages.append(page(len(pages)+1,'Research & contact',last,'research-page'))
     (DEST/'portfolio.html').write_text(document(''.join(pages),'Manuel Eguía — Portfolio',len(pages)))
     cv1=page(1,'Selected CV',cv_content(),'cv-page',total=2)
-    cv2body=f'<p class="eyebrow">Manuel Camilo Eguía / Selected CV</p><div class="two-columns"><div><h3>Scientific publications</h3>{publications()}</div><div><h3>Selected artistic collaborations</h3>{rows(T["collaborations"])}{contact()}</div></div>'
+    cv2body=f'<p class="eyebrow">Manuel Camilo Eguía / Selected CV</p><div class="two-columns"><div><h3>Scientific publications</h3>{publications()}</div><div><h3>{E(T["collab_heading"])}</h3>{rows(T["collaborations"])}{contact()}</div></div>'
     cv2=page(2,'Selected CV',cv2body,'cv-second',total=2)
     (DEST/'cv.html').write_text(document(cv1+cv2,'Manuel Eguía — Selected CV'))
     if not args.proposal:

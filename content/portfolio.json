@@ -12,19 +12,18 @@
     "intro": "I work with sound, acoustics and auditory perception through installations, virtual environments and collaborative projects.",
     "statement_title": "Artistic practice and scientific research",
     "statement": [
-      "My professional background is research in physics, nonlinear dynamics, neuroscience and acoustics. For 25 years, I have worked at an art school, training artists and connecting art and science through laboratory work and international collaborations. My artistic practice has developed through this work.",
+      "My professional background is research in physics, nonlinear dynamics, neuroscience and acoustics. I am based in Buenos Aires, Argentina, at the School of Arts of the Universidad Nacional de Quilmes. For 25 years, I have trained artists and connected art and science through laboratory work at LAPSo and international collaborations.",
       "I develop works based on current questions in sound, acoustics and auditory perception. These projects examine how acoustic materials affect listening, how virtual environments alter the perception of space, and how musical practices relate to their acoustic surroundings.",
       "I use scientific models, experiments and technical development to explore particular spaces, acoustic conditions and ways of listening."
     ],
-    "bio": "I am based in Buenos Aires. I founded LAPSo, the Laboratory of Acoustics and Sound Perception at Universidad Nacional de Quilmes, in 2007, and Proyecto GRAPa in 2017.",
     "work_heading": "Selected works",
     "work_intro": "Six projects exploring relationships between sound, materials, bodies and place.",
-    "practice_heading": "The laboratory, the classroom, the work",
+    "practice_heading": "Interdisciplinary work",
     "practice": [
-      "At LAPSo, we work as researchers and artists on acoustic experimentation, sound spatialization, instrument design, auditory perception and virtual environments.",
+      "I founded the Acoustics and Sound Perception Laboratory (LAPSo) at Universidad Nacional de Quilmes in 2007. We work as researchers and artists on acoustic experimentation, sound spatialization, instrument design, auditory perception and virtual environments.",
       "I teach and supervise projects in music, performance and the visual arts. I also supervise doctoral work across science, art and technology and contribute to international workshops with participants from different disciplines."
     ],
-    "workshop_heading": "Workshops at Performing Arts Forum",
+    "workshop_heading": "Workshops at PAF",
     "workshop_intro": "I participate in the L.I.F.E. project initiated by Gabriel Catren at the Performing Arts Forum in Saint-Erme, France. In these workshops, we explore scientific and mathematical questions through collective artistic experimentation.",
     "workshops": [
       {
@@ -44,7 +43,7 @@
       }
     ],
     "collab_heading": "Selected international collaborations",
-    "collab_intro": "Sound design and technical development in collaboration with the authors of these works.",
+    "collab_intro": "We also work as an art collective and provide technical support to other artists and collectives, contributing sound design and technological development.",
     "collaborations": [
       {
         "year": "2023–2024",
@@ -101,7 +100,7 @@
         "detail": "Laboratory of Acoustics and Sound Perception, Universidad Nacional de Quilmes."
       },
       {
-        "year": "",
+        "year": "2004–",
         "title": "CONICET researcher",
         "detail": "Physics, nonlinear dynamics, neuroscience and acoustics."
       }
@@ -186,7 +185,7 @@
       "skip": "Skip to content"
     },
     "current_heading": "Current research: acoustic time reversal",
-    "current": "Current experiments extend research on acoustic time reversal to pulses travelling through steel sheets. The work examines how bending the surface changes sound focusing, timbre and radiation, and how these changes relate to gesture and spatial listening.",
+    "current": "We are extending our research on acoustic time reversal to pulses travelling through steel sheets. We examine how bending the surface changes sound focusing, timbre and radiation, and how these changes relate to gesture and spatial listening.",
     "about_heading": "About"
   },
   "es": {
@@ -196,19 +195,18 @@
     "intro": "Trabajo con el sonido, la acústica y la percepción auditiva a través de instalaciones, entornos virtuales y proyectos colectivos.",
     "statement_title": "Práctica artística e investigación científica",
     "statement": [
-      "Mi base profesional es la investigación en física, dinámica no lineal, neurociencias y acústica. Desde hace 25 años trabajo en una escuela de artes, formando artistas y vinculando el arte y la ciencia a través del laboratorio y de colaboraciones internacionales. Mi práctica artística se ha desarrollado a partir de ese trabajo.",
+      "Mi base profesional es la investigación en física, dinámica no lineal, neurociencias y acústica. Trabajo en Buenos Aires, Argentina, en la Escuela Universitaria de Artes de la Universidad Nacional de Quilmes. Desde hace 25 años formo artistas y vinculo el arte y la ciencia a través del trabajo en el laboratorio LAPSo y de colaboraciones internacionales.",
       "Desarrollo obras a partir de preguntas actuales sobre sonido, acústica y percepción auditiva. Estos proyectos estudian cómo los materiales acústicos afectan la escucha, cómo los entornos virtuales modifican la percepción del espacio y cómo las prácticas musicales se relacionan con sus entornos acústicos.",
       "Utilizo modelos científicos, experimentos y desarrollos técnicos para explorar espacios, condiciones acústicas y modos de escucha específicos."
     ],
-    "bio": "Vivo y trabajo en Buenos Aires. Fundé el Laboratorio de Acústica y Percepción Sonora (LAPSo) en la Universidad Nacional de Quilmes en 2007, y Proyecto GRAPa en 2017.",
     "work_heading": "Obras seleccionadas",
     "work_intro": "Seis proyectos que exploran relaciones entre sonido, materiales, cuerpos y territorio.",
-    "practice_heading": "El laboratorio, el aula, la obra",
+    "practice_heading": "Trabajo interdisciplinario",
     "practice": [
-      "En LAPSo trabajamos como investigadores y artistas en experimentación acústica, espacialización del sonido, diseño de instrumentos, percepción auditiva y entornos virtuales.",
+      "Fundé el Laboratorio de Acústica y Percepción Sonora (LAPSo) en la Universidad Nacional de Quilmes en 2007. Trabajamos como investigadores y artistas en experimentación acústica, espacialización del sonido, diseño de instrumentos, percepción auditiva y entornos virtuales.",
       "Doy clases y acompaño proyectos de música, artes escénicas y artes visuales. También dirijo tesis doctorales entre ciencia, arte y tecnología y participo en talleres internacionales con personas de distintas disciplinas."
     ],
-    "workshop_heading": "Talleres en Performing Arts Forum",
+    "workshop_heading": "Talleres en PAF",
     "workshop_intro": "Participo en el proyecto L.I.F.E., iniciado por Gabriel Catren en el Performing Arts Forum de Saint-Erme, Francia. En estos talleres exploramos preguntas científicas y matemáticas mediante la experimentación artística colectiva.",
     "workshops": [
       {
@@ -228,7 +226,7 @@
       }
     ],
     "collab_heading": "Colaboraciones internacionales seleccionadas",
-    "collab_intro": "Diseño sonoro y desarrollo técnico en colaboración con los autores de estas obras.",
+    "collab_intro": "También trabajamos como colectivo artístico y brindamos apoyo técnico a otros artistas y colectivos, a través del diseño sonoro y el desarrollo tecnológico.",
     "collaborations": [
       {
         "year": "2023–2024",
@@ -285,7 +283,7 @@
         "detail": "Laboratorio de Acústica y Percepción Sonora, Universidad Nacional de Quilmes."
       },
       {
-        "year": "",
+        "year": "2004–",
         "title": "Investigador del CONICET",
         "detail": "Física, dinámica no lineal, neurociencias y acústica."
       }
@@ -370,7 +368,7 @@
       "skip": "Saltar al contenido"
     },
     "current_heading": "Investigación actual: reversión temporal acústica",
-    "current": "Los experimentos actuales extienden la investigación sobre reversión temporal acústica a pulsos que viajan por láminas de acero. El trabajo estudia cómo la flexión de la superficie modifica la focalización, el timbre y la radiación sonora, y cómo esos cambios se relacionan con el gesto y la escucha espacial.",
+    "current": "Estamos extendiendo nuestra investigación sobre reversión temporal acústica a pulsos que viajan por láminas de acero. Estudiamos cómo la flexión de la superficie modifica la focalización, el timbre y la radiación sonora, y cómo esos cambios se relacionan con el gesto y la escucha espacial.",
     "about_heading": "Sobre mí"
   },
   "projects": [

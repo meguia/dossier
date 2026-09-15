@@ -11,8 +11,9 @@ OUT = ROOT / 'docs'
 DATA = json.loads((ROOT / 'content/portfolio.json').read_text())
 E = escape
 
-def paras(items):
-    return ''.join(f'<p>{E(p)}</p>' for p in items)
+def paras(items, linked=False):
+    format_text=institutional_text if linked else E
+    return ''.join(f'<p>{format_text(p)}</p>' for p in items)
 
 def image(name, alt, prefix, cls='', eager=False, position=None):
     style=f' style="object-position:{E(position)}"' if position else ''
@@ -73,8 +74,18 @@ def homepage(lang):
     for p in DATA['projects']:
         q=p[lang]
         cards+=f'<a class="work-card" href="works/{p["id"]}/">{image(p["image"],q["alt"],prefix,position=p.get("card_position"))}<div class="card-meta"><span>{p["number"]} / {E(q["medium"].split(" · ")[0])}</span><span>{p["year"]}</span></div><div class="card-title"><h3>{E(q["title"])}</h3><span class="arrow" aria-hidden="true">↗</span></div><div class="card-subtitle">{E(q["subtitle"])}</div><div class="card-credit">{E(p["credit"])}</div></a>'
-    body=f'''<main id="main"><div class="wrap"><section class="opening"><p class="opening-text">{E(t['intro'])}</p>{downloads(lang,prefix)}</section><section class="section selected-works" id="works"><div class="section-heading"><div><p class="eyebrow">01—{len(DATA["projects"]):02d}</p><h1 class="works-heading">{E(t['work_heading'])}</h1></div><p>{E(t['work_intro'])}</p></div><div class="works-grid">{cards}</div></section></div><section class="statement-section section" id="practice"><div class="wrap statement-grid"><div><p class="eyebrow">{E(t['about_heading'])}</p><h2>{E(t['statement_title'])}</h2><div class="portrait-row">{image('portrait.jpg','Manuel Eguía',prefix)}<p>{institutional_text(t['bio'])}</p></div></div><div class="statement-copy">{paras(t['statement'])}</div></div></section><div class="wrap"><section class="section practice-grid"><div><h2>{E(t['practice_heading'])}</h2>{paras(t['practice'])}<div class="current"><p class="eyebrow">{'Work in progress' if lang=='en' else 'Trabajo en proceso'}</p><h4>{E(t['current_heading'])}</h4><p>{E(t['current'])}</p></div></div><div><h3>{E(t['workshop_heading'])}</h3><p>{E(t['workshop_intro'])}</p>{rows(t['workshops'])}</div></section><section class="section collab-section"><div class="section-heading"><h3>{E(t['collab_heading'])}</h3><p>{E(t['collab_intro'])}</p></div>{rows(t['collaborations']).replace('class="list"','class="list collab-list"')}</section><section class="section cv-section" id="cv"><div class="section-heading"><h2>{E(t['cv_heading'])}</h2><div><p>{E(t['cv_intro'])}</p>{downloads(lang,prefix)}</div></div><div class="cv-columns"><div><h3>{E(l['positions'])}</h3>{rows(t['positions'])}<p class="programme">{E(t['programme'])}</p><h3>{E(l['education'])}</h3>{rows(t['education'])}</div><div><h3>{E(l['highlights'])}</h3>{rows(t['highlights'])}</div></div>{research(lang)}</section></div></main>'''
-    if lang=='es': body=body.replace('Physics / Nonlinear dynamics / Neuroscience / Acoustics','Física / Dinámica no lineal / Neurociencias / Acústica')
+    body=f'''<main id="main">
+<div class="wrap">
+<section class="opening"><p class="opening-text">{E(t['intro'])}</p>{downloads(lang,prefix)}</section>
+<section class="section selected-works" id="works"><div class="section-heading"><div><p class="eyebrow">01—{len(DATA["projects"]):02d}</p><h1 class="works-heading">{E(t['work_heading'])}</h1></div><p>{E(t['work_intro'])}</p></div><div class="works-grid">{cards}</div></section>
+</div>
+<section class="statement-section" id="practice"><div class="about-layout"><figure class="about-image">{image('portrait.jpg','Manuel Eguía',prefix,'about-portrait')}</figure><div class="about-copy"><p class="eyebrow">{E(t['about_heading'])}</p><h2>{E(t['statement_title'])}</h2>{paras(t['statement'],linked=True)}</div></div></section>
+<div class="wrap">
+<section class="section interdisciplinary-section" id="interdisciplinary"><h2>{E(t['practice_heading'])}</h2><div class="interdisciplinary-grid"><div>{paras(t['practice'],linked=True)}</div><div class="current"><h3>{E(t['current_heading'])}</h3><p>{E(t['current'])}</p></div></div><p class="collective-description">{E(t['collab_intro'])}</p></section>
+<section class="section collab-section" id="collaborations"><h2>{E(t['collab_heading'])}</h2>{rows(t['collaborations']).replace('class="list"','class="list collab-list"')}</section>
+<section class="section workshops-section" id="workshops"><div class="workshops-grid"><div><h2>{E(t['workshop_heading'])}</h2><p>{E(t['workshop_intro'])}</p></div><div>{rows(t['workshops'])}</div></div></section>
+<section class="section cv-section" id="cv"><div class="section-heading"><h2>{E(t['cv_heading'])}</h2><div><p>{E(t['cv_intro'])}</p>{downloads(lang,prefix)}</div></div><div class="cv-columns"><div><h3>{E(l['positions'])}</h3>{rows(t['positions'])}<p class="programme">{E(t['programme'])}</p><h3>{E(l['education'])}</h3>{rows(t['education'])}</div><div><h3>{E(l['highlights'])}</h3>{rows(t['highlights'])}</div></div>{research(lang)}</section>
+</div></main>'''
     return shell(lang,body,prefix)
 
 def projectpage(lang,p):
