@@ -33,3 +33,5 @@ The fonts are Liberation Sans and Liberation Serif; their licence is included in
 The project descriptions derive from the supplied Manuel Eguía, CERN, Transit and GRAPa dossiers. Career details use the supplied CVs and the author's stated 25 years working in an art-school environment. Dates and collaboration credits were cross-checked against records from UNQ, the Mercosul Biennial, La Biennale di Venezia, PAC Milano, Performing Arts Forum and the MCBA 2020 activity report. Research links point to the publishers' DOI records.
 
 The Wind Chimes description and construction/performance credits use Buenos Aires Sonora’s 2011 project archive. IRIS uses UNQ project documentation, the supplied teaser and the 2022 Journal of New Music Research paper. The portfolio contains six selected projects.
+
+The website opens with a short introduction and download links, followed by the six selected works. About / Sobre mí uses first-person prose; the PDF opens with a linked works index and places About after the project selection. The website and PDFs use Liberation Sans throughout.
