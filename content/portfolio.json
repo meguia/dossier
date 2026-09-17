@@ -21,7 +21,8 @@
     "practice_heading": "Interdisciplinary work",
     "practice": [
       "I founded the Acoustics and Sound Perception Laboratory (LAPSo) at Universidad Nacional de Quilmes in 2007. We work as researchers and artists on acoustic experimentation, sound spatialization, instrument design, auditory perception and virtual environments.",
-      "I teach and supervise projects in music, performance and the visual arts. I also supervise doctoral work across science, art and technology and contribute to international workshops with participants from different disciplines."
+      "I teach and supervise projects in music, performance and the visual arts. I also supervise doctoral work across science, art and technology and contribute to international workshops with participants from different disciplines.",
+      "I am also part of the Haptic Thought Laboratory, initiated by Julian Rohrhuber at the Institute of Music and Media (IMM), Robert Schumann Hochschule Düsseldorf. We explore touch, sound and dynamical systems through force-feedback interfaces, live coding and participatory practices."
     ],
     "workshop_heading": "Workshops at PAF",
     "workshop_intro": "I participate in the L.I.F.E. project initiated by Gabriel Catren at the Performing Arts Forum in Saint-Erme, France. In these workshops, we explore scientific and mathematical questions through collective artistic experimentation.",
@@ -88,6 +89,11 @@
         "year": "2019–",
         "title": "Full Professor",
         "detail": "Escuela Universitaria de Artes, Universidad Nacional de Quilmes."
+      },
+      {
+        "year": "Current",
+        "title": "Researcher, Haptic Thought Laboratory",
+        "detail": "With Julian Rohrhuber at IMM, Robert Schumann Hochschule Düsseldorf."
       },
       {
         "year": "2017",
@@ -185,7 +191,7 @@
       "skip": "Skip to content"
     },
     "current_heading": "Current research: acoustic time reversal",
-    "current": "We are extending our research on acoustic time reversal to pulses travelling through steel sheets. We examine how bending the surface changes sound focusing, timbre and radiation, and how these changes relate to gesture and spatial listening.",
+    "current": "At LAPSo, we are extending our research on acoustic time reversal to pulses travelling through steel sheets. We examine how bending the surface changes sound focusing, timbre and radiation, and how these changes relate to gesture and spatial listening.",
     "about_heading": "About"
   },
   "es": {
@@ -204,7 +210,8 @@
     "practice_heading": "Trabajo interdisciplinario",
     "practice": [
       "Fundé el Laboratorio de Acústica y Percepción Sonora (LAPSo) en la Universidad Nacional de Quilmes en 2007. Trabajamos como investigadores y artistas en experimentación acústica, espacialización del sonido, diseño de instrumentos, percepción auditiva y entornos virtuales.",
-      "Doy clases y acompaño proyectos de música, artes escénicas y artes visuales. También dirijo tesis doctorales entre ciencia, arte y tecnología y participo en talleres internacionales con personas de distintas disciplinas."
+      "Doy clases y acompaño proyectos de música, artes escénicas y artes visuales. También dirijo tesis doctorales entre ciencia, arte y tecnología y participo en talleres internacionales con personas de distintas disciplinas.",
+      "También formo parte del Haptic Thought Laboratory, iniciado por Julian Rohrhuber en el Instituto de Música y Medios (IMM) de la Robert Schumann Hochschule Düsseldorf. Exploramos el tacto, el sonido y los sistemas dinámicos mediante interfaces con retroalimentación de fuerza, programación en vivo y prácticas participativas."
     ],
     "workshop_heading": "Talleres en PAF",
     "workshop_intro": "Participo en el proyecto L.I.F.E., iniciado por Gabriel Catren en el Performing Arts Forum de Saint-Erme, Francia. En estos talleres exploramos preguntas científicas y matemáticas mediante la experimentación artística colectiva.",
@@ -271,6 +278,11 @@
         "year": "2019–",
         "title": "Profesor titular",
         "detail": "Escuela Universitaria de Artes, Universidad Nacional de Quilmes."
+      },
+      {
+        "year": "Actualidad",
+        "title": "Investigador, Haptic Thought Laboratory",
+        "detail": "Con Julian Rohrhuber en el IMM, Robert Schumann Hochschule Düsseldorf."
       },
       {
         "year": "2017",
@@ -368,7 +380,7 @@
       "skip": "Saltar al contenido"
     },
     "current_heading": "Investigación actual: reversión temporal acústica",
-    "current": "Estamos extendiendo nuestra investigación sobre reversión temporal acústica a pulsos que viajan por láminas de acero. Estudiamos cómo la flexión de la superficie modifica la focalización, el timbre y la radiación sonora, y cómo esos cambios se relacionan con el gesto y la escucha espacial.",
+    "current": "En LAPSo, estamos extendiendo nuestra investigación sobre reversión temporal acústica a pulsos que viajan por láminas de acero. Estudiamos cómo la flexión de la superficie modifica la focalización, el timbre y la radiación sonora, y cómo esos cambios se relacionan con el gesto y la escucha espacial.",
     "about_heading": "Sobre mí"
   },
   "projects": [

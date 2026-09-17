@@ -7,6 +7,7 @@ def institutional_text(text):
     for label, url in (
         ('Universidad Nacional de Quilmes', 'https://www.unq.edu.ar/'),
         ('LAPSo', 'https://lapso.org/'),
+        ('Haptic Thought Laboratory', 'https://haptic.nhrz.de/'),
     ):
         html = html.replace(label, f'<a class="institution-link" href="{url}">{label}</a>')
     return html

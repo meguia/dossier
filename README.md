@@ -37,3 +37,5 @@ The Wind Chimes description and construction/performance credits use Buenos Aire
 The website opens with a short introduction and download links, followed by the six selected works. About / Sobre mí uses first-person prose; the PDF opens with a linked works index and places About after the project selection. The website and PDFs use Liberation Sans throughout.
 
 About pairs a full-height portrait on the left with one merged text column on the right. The following sections run in this order: Interdisciplinary work and current research, selected international collaborations, PAF workshops, then the CV. The portfolio gives PAF workshops their own page immediately before the CV.
+
+Interdisciplinary work and the selected CV include participation in the Haptic Thought Laboratory with Julian Rohrhuber at IMM, Robert Schumann Hochschule Düsseldorf. The laboratory's official website confirms the researcher affiliation and its work connecting touch, sound and dynamical systems: https://haptic.nhrz.de/. No start year is inferred.
